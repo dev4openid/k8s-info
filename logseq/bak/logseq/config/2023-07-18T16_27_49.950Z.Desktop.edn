@@ -340,7 +340,7 @@
  ;;     ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :journal/page-title-format "yyyy/MM/dd"
- :graph/settings {:journal? true, :excluded-pages? true}
+ :graph/settings {:journal? true, :excluded-pages? false}
 
  ;; specify the format of the filename for journal files
  ;; :journal/file-name-format "yyyy_MM_dd"
