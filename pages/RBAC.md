@@ -67,3 +67,113 @@
   
   ```
 -
+- ## Other
+- ==Tip:==
+	- use `wc -l nginx-pod.yaml`to count lines of output - e.g. pod.yaml
+-
+- To define a role for a new user
+- ```cmake
+  # as per the role.yaml the
+  # verbs: [""@get", "watch", "list"] #limit the access/actions for a user
+  # from: 
+  kubectl api-resources -o wide | rg pod
+  # result in create,delete,deletecollection,get,list,patch,update,watch choices
+  
+  kubectl apply -f role.yaml
+  role.rbac.authorization.k8s.io/pod-reader created
+  # check
+  kubectl get roles
+  NAME         CREATED AT
+  pod-reader   2023-07-05T12:10:35Z
+  # user role is now defined
+  
+  ```
+-
+- To define the rolebinding (when the user, has a role defined)
+- ```cmake
+  # as per the role-binding.yaml
+  kubectl apply -f role-binding.yaml
+  rolebinding.rbac.authorization.k8s.io/read-pods created
+  # user can now read-pods ["get", "watch", "list"]
+  
+  kubectl config use-context briand-minikube
+  Switched to context "briand-minikube".
+  
+  # now get pods
+  kubectl get pods
+  # see nginx running
+  
+  kubectl config use-context minikube
+  
+  # new namespace created
+  kubectl create ns test             
+  namespace/test created
+  
+  kubectl  run nginx --image=nginx -n test
+  pod/nginx created
+  
+  config use-context briand-minikube
+  Switched to context "briand-minikube".
+  
+  # Note: the rolebing id limited to the appropriate namespace ---> kubectl get pod -n test will not be found
+  
+  ```
+-
+- Note: Role and RoleBinding is always limited to a namespace
+- To get around this leverage cluster level means all resources in all namespaces are visible
+- ```cmake
+  # Leverage the cluster rolebinding # cluster-role.yaml AND cluster-role-binding.yaml
+  kubectl config use-context minikube
+  Switched to context "minikube".
+  
+  # create cluster role
+  kubectl apply -f cluster-role.yaml
+  clusterrole.rbac.authorization.k8s.io/pod-reader created
+  # followed by cluster-role-binding
+  apply -f cluster-role-binding.yaml
+  clusterrolebinding.rbac.authorization.k8s.io/pod-reader-global created
+  
+  apply -f cluster-role-binding.yaml
+  clusterrolebinding.rbac.authorization.k8s.io/pod-reader-global created
+  
+  kubectl get pod -n test
+  NAME    READY   STATUS    RESTARTS   AGE
+  nginx   1/1     Running   0          12m
+  # Note: the namespace test pods are now visible as cluster role and role binding  Carefull!!
+  # This now the case that briand is the same as default admin rights (in context to permissions)
+  ```
+-
+- For all users:
+- Note: the openssl creta csr we nominated briand to be member of O=dev (which is a group) and the group dev is in the cluster-role-binding.yaml the anyone belonging to group O=dev can inherit permissions
+-
+### Service accounts
+- Every namespace created has a service-account created as default
+- ```cmake
+  kubectl get sa -n test
+  NAME      SECRETS   AGE
+  default   0         49m
+  
+  # create a serviceaccount in namespace test
+  kubectl create sa test-sa -n test
+  kubectl create sa test-sa
+  
+  # check if serviceaccount is in namespace
+  kubectl get sa -n test
+  NAME      SECRETS   AGE
+  default   0         51m
+  test-sa   0         4s
+  
+  # create pod with serviceaccount
+  kubectl apply -f kubectl-pod.yaml 
+  pod/kubectl-pod created
+  
+  kubectl auth can-i create pods --as="system:serviceaccount:default:test-sa"
+  no
+  # due to the limitations of the role and
+  kubectl auth can-i get pods --as="system:serviceaccount:default:test-sa"
+  yes
+  kubectl auth can-i get pods --as=system:serviceaccount:default:test-sa -n test
+  no
+  
+  ```
+-
