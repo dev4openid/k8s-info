@@ -1,10 +1,10 @@
 - # K8s Secrets
-- ![Imperative Secrets](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-20 20-33-09.png){:height 361, :width 649}
+- ![Imperative Secrets](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-20 20-33-09.png){:height 360, :width 650}
 - Imperative Secrets
 -
 - ![Declarative Secrets](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-20 20-36-10.png){:height 336, :width 648}
 - Declarative Secrets
-- ![Encrypt Secret (Data Row iteratively)](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-20 20-38-02.png){:height 426, :width 648}
+- ![Encrypt Secret (Data Row iteratively)](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-20 20-38-02.png){:height 426, :width 650}
 -
 - Encrypt Secret (Data Row iteratively)
 - Examples:
