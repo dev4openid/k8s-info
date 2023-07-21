@@ -1,3 +1,8 @@
 - Structural components are:
-	- Pods]]
+	- [[Pods]]
 	- [[Deployments]]
+	- [[Secrets]]
+	- [[ConfigMaps]]
+	- [[Ingress]]
+	- LoadBalancer
+	-
