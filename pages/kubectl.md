@@ -1,0 +1,13 @@
+- **CRUD**
+	- kubctl create deployment [name]
+	- kubctl edit deployment [name]    (editing config live in memory)
+	- kubctl delete deployment [name]
+- **Status of components**
+	- kubctl get nodes | pod | services | replicaset | deployment
+- **Debugging pods**
+	- kubctl logs [pod name]
+	- kubctl exec -it [pod name] -- bin/bash
+	- kubctl describe pod [pod name]
+- **Config file**
+	- kubctl apply -f [file name]
+	- kubctl delete -f [file name]
