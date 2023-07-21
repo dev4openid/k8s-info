@@ -52,7 +52,7 @@
   ```
 - *==Note:==* Best practice to encrypt all fields the where / who / password
 - Methods of storing Secrets:
-- ![Methods of storing Secrets](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-20 20-49-56.png){:height 457, :width 610}
+- ![Methods of storing Secrets](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-20 20-49-56.png){:height 525, :width 650}
 - Methods of storing Secrets
 - ![Each element in Secrets are stored in different files in Volumes](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-20 20-50-38.png)
 - Each element in Secrets are stored in different files in Volumes
