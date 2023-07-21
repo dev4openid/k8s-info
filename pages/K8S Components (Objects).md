@@ -4,5 +4,6 @@
 	- [[Secrets]]
 	- [[ConfigMaps]]
 	- [[Ingress]]
-	- LoadBalancer
+	- [[LoadBalancer]]
+	-
 	-
