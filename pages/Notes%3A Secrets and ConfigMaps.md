@@ -1,5 +1,5 @@
-- # Notes: [[Secrets]] and [[ConfigMaps]]
-  title:: Notes: Secrets and ConfigMaps
+- # Notes: [[Secrets]] and [[ConfigMaps
+- Notes: Secrets and ConfigMaps
 - config data:
 	- passing arguments
 	- config files
