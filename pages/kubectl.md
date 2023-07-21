@@ -11,3 +11,4 @@
 - **Config yaml files**
 	- kubctl apply -f [file name]
 	- kubctl delete -f [file name]
+-
