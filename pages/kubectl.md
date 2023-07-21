@@ -8,6 +8,6 @@
 	- kubctl logs [pod name]
 	- kubctl exec -it [pod name] -- bin/bash
 	- kubctl describe pod [pod name]
-- **Config file**
+- **Config yaml files**
 	- kubctl apply -f [file name]
 	- kubctl delete -f [file name]
