@@ -1,0 +1,3 @@
+- Structural components are:
+	- Pods]]
+	- [[Deployments]]
