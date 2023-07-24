@@ -1,0 +1,3 @@
+- ***Command used to download Youtube videos***
+- `yt-dlp -f bestvideo+bestaudio/best https://youtu.be/X48VuDVv0do`
+- make sure this is yt-dlp is the latest version
