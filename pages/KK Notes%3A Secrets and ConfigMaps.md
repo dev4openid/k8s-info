@@ -1,6 +1,6 @@
 - # Notes: Secrets and ConfigMaps
   title:: KK Notes: Secrets and ConfigMaps
-- [[KK Secrets]] and [[KK ConfigMaps]]
+- [[KK Secrets]] and [[KK ConfigMap]]
 - config data:
 	- passing arguments
 	- config files
