@@ -23,7 +23,7 @@
   3:13:43 - K8s Services explained
 -
 - ▬▬▬▬▬▬ COURSE OVERVIEW 📚 ▬▬▬▬▬▬
-- [[N -What is Kubernetes]]
+- [[N What is Kubernetes]]
 	- [[N Main K8s Components]]
 	- [[N K8s Architecture]]
 	- [[N Minikube and kubectl - Local Setup]]
