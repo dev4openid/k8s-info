@@ -32,3 +32,14 @@
 ### Template
 - ![Pod Specification](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-20 15-43-01.png)
 - Pod Specification
+-
+- ### Blueprint for Pods (Templates)
+- ==Structure of yaml file:==
+	- ```yaml
+	  apiVersion:
+	  kind:
+	  metadata:
+	  spec:
+	  ```
+- *==Tip:==*
+	- use `kubectl api-resources | grep deployment`  ---> (or service /  secret / configmap / pods)
