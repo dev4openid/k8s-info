@@ -2,3 +2,4 @@
 - [[Proxmox]]
 - [[CodeScene (ML Tools - Useful?)]]
 - [[Linux Backup to Remote Server]]
+- [[Linux - Remove old kernels]]
