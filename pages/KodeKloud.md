@@ -8,7 +8,6 @@
 - [[KK Organising your components with K8s Namespaces
 - [[KK Ingress]]
 - 24/06
-- [[CodeScene (ML Tools - Useful?)]]
 - [[KK Ingress]]
 - 28/06
 - [[General List to memorise]]
@@ -25,7 +24,7 @@
 - [[KK Autoscalers]]
 - 05/07
 - [[KK RBAC]]
-- [[General Notes for Pods/ Replicas/etc.]]
+- [[KK General Notes for Pods/ Replicas/etc.]]
 - 23/07/12
 - [[KK Sheduling]]
 - [[KK Minikube or kubeadm Metrics Server]]
