@@ -1,4 +1,5 @@
 - # Probes
+  title:: KK Probes
 - check for:
 	- liveness
 	- readiness

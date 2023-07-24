@@ -16,9 +16,9 @@
 -
 - [[K8S Components (Objects)]]
 - 04/07
-- [[Stateful Sets (STS)]]
+- [[KK Stateful Sets (STS)]]
 - [[Notes: Secrets and ConfigMaps]]
-- [[Probes]]
+- [[KK Probes]]
 - [[KK Limits]]
 - [[KK Node Selector and Node Affinity]]
 - [[KK DaemonSets]]
