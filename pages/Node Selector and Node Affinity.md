@@ -1,8 +1,7 @@
 - # Node Selector and Node Affinity
 ### Node Selector
 - Simple model means labelling the node to get the desired effect
-- `kubectl label node <node-name> <Label-key>=<label-value>`, an e.g.
-- `kubectl label node node01 size=Large` thus the pod now has nodeSelector: of size: Large
+- `kubectl label node <node-name> <Label-key>=<label-value>`, an e.g. `kubectl label node node01 size=Large` thus the pod now has nodeSelector: of size: Large
 -
 ### Node Affinity
 - In pod definition:
