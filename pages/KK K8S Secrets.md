@@ -1,4 +1,5 @@
 - # K8s Secrets
+  title:: KK K8S Secrets
 - ![Imperative Secrets](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-20 20-33-09.png){:height 360, :width 650}
 - Imperative Secrets
 -
