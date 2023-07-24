@@ -2,7 +2,7 @@
 	- [[Pods]]
 	- [[KK Deployments]]
 	- [[Secrets]]
-	- [[ConfigMaps]]
+	- [[KK ConfigMaps]]
 	- [[KK Ingress]]
 	- [[LoadBalancer]]
 	-
