@@ -31,7 +31,7 @@
 - [[KK Minikube or kubeadm Metrics Server]]
 - [[K8S Env variables]]
 - [[KK Config]]
-- [[KK K8S Secrets]]
+- [[KK Secrets]]
 - [[KK K8S Commands and Arguments]]
 - [[KK Taints and Tolerations]]
 - [[KK Node Selector and Node Affinity]]
