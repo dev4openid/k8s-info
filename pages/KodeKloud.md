@@ -30,7 +30,7 @@
 - [[KK Sheduling]]
 - [[KK Minikube or kubeadm Metrics Server]]
 - [[K8S Env variables]]
-- [[K8S Config]]
+- [[KK Config]]
 - [[KK K8S Secrets]]
 - [[KK K8S Commands and Arguments]]
 - [[KK Taints and Tolerations]]
