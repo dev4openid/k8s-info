@@ -2,6 +2,7 @@
   title:: KodeKloud
 - 12/06
 - [[KK Basic Networking]]
+- [[KK Creating a yaml file]]
 - 16/06
 - [[KK Demo Project: MongoDB and MongoExpress]]
 - 21/06
@@ -35,4 +36,3 @@
 - [[KK Taints and Tolerations]]
 - [[KK Node Selector and Node Affinity]]
 - [[KK Monitoring]]
-- [[KK Creating a yaml file]]
