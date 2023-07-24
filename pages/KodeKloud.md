@@ -1,7 +1,7 @@
 - # KK K8s Contents
   title:: KodeKloud
 - 12/06
-- [[Basic Networking]]
+- [[KK Basic Networking]]
 - 16/06
 - [[KK Demo Project: MongoDB and MongoExpress]]
 - 21/06
