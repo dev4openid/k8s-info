@@ -14,7 +14,7 @@
 - [[General List to memorise]]
 - [[KK Volumes]]
 -
-- [[K8S Components (Objects)]]
+- [[KK Components (Objects)]]
 - 04/07
 - [[KK Stateful Sets (STS)]]
 - [[KK Notes: Secrets and ConfigMaps]]
