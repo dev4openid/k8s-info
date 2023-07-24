@@ -26,3 +26,5 @@
 -
 - *==Note:==* Do NOT forget
 - `kubectl replace --force -f new-pod-defintion.yaml    # replace an existing pod`
+-
+- [[Notes: Secrets and ConfigMaps]]
