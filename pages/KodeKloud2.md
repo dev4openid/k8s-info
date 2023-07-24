@@ -1,3 +1,2 @@
 -
 - [[Creating a yaml file]]
-- [[KK DaemonSets]]

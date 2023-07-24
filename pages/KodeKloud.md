@@ -21,7 +21,7 @@
 - [[Probes]]
 - [[Limits]]
 - [[KK Node Selector and Node Affinity]]
-- [[DaemonSets]]
+- [[KK DaemonSets]]
 - [[Autoscalers]]
 - 05/07
 - [[RBAC]]
