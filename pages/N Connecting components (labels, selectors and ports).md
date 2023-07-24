@@ -1,4 +1,5 @@
 - # Connecting components (labels, selectors and ports)
+  title:: N Connecting components (labels, selectors and ports)
 - ![Connecting Deployments to Pods](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-20 15-47-49.png){:height 380, :width 650}
 - Connecting Deployments to Pods
 - ![image.png](../assets/image_1686905760664_0.png){:height 380, :width 650}
