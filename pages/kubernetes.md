@@ -1,5 +1,5 @@
 - Courses:
-- [[KodeKloud]]
+- [[KodeKloud2]]
 - [[N Kubernetes (Nana)]]
 - [[Utilities]]
 - ProxMox
