@@ -35,4 +35,4 @@
 - [[KK Taints and Tolerations]]
 - [[KK Node Selector and Node Affinity]]
 - [[KK Monitoring]]
--
+- [[KK Creating a yaml file]]
