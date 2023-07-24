@@ -9,10 +9,10 @@
 - [[KK K8s Ingress explained]]
 - 24/06
 - [[CodeScene (ML Tools - Useful?)]]
-- [[Ingress]]
+- [[KK Ingress]]
 - 28/06
 - [[General List to memorise]]
-- [[Volumes]]
+- [[KK Volumes]]
 -
 - [[K8S Components (Objects)]]
 - 04/07

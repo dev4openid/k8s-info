@@ -3,7 +3,7 @@
 	- [[Deployments]]
 	- [[Secrets]]
 	- [[ConfigMaps]]
-	- [[Ingress]]
+	- [[KK Ingress]]
 	- [[LoadBalancer]]
 	-
 	-
