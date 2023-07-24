@@ -15,3 +15,5 @@
 	  2. specification
 	  3. status (Notice: automatically generated on instatiation by k8s)
 - Note: all status is found in etcd
+-
+-
