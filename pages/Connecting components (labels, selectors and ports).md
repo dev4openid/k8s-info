@@ -1,5 +1,5 @@
 - # Connecting components (labels, selectors and ports)
-- ![Connecting Deployments to Pods](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-20 15-47-49.png)
+- ![Connecting Deployments to Pods](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-20 15-47-49.png){:height 392, :width 674}
 - Connecting Deployments to Pods
 - ![image.png](../assets/image_1686905760664_0.png){:height 349, :width 671}
 - Connecting Services to Deployments
