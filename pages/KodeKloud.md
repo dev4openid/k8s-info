@@ -11,7 +11,7 @@
 - 24/06
 - [[KK Ingress]]
 - 28/06
-- [[General List to memorise]]
+- [[KK General List to memorise]]
 - [[KK Volumes]]
 -
 - [[KK Components (Objects)]]
