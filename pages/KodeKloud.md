@@ -3,7 +3,7 @@
 - [[kubernetes]]
 - [[KK Basic Networking]]
 - [[KK Creating a yaml file]]
-- [[KK Notes of POD/Service/Replicas/etc.]]
+- [[KK Notes of POD_Service_Replicas_etc.]]
 - [[KK Demo Project: MongoDB and MongoExpress]]
 - [[KK Organising your components with Namespaces]]
 - [[KK Ingress]]
