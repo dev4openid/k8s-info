@@ -18,7 +18,7 @@
 	- deployment
 	- service
 - To include secret into deployment:
-- ![image.png](../assets/image_1686918180776_0.png){:height 292, :width 639}
+- ![image.png](../assets/image_1686918180776_0.png){:height 327, :width 654}
 - 1:38:08
 - In example mongodb and mongo-express the order is specific
 	- firstly: (Mongdb)
