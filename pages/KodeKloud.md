@@ -24,7 +24,7 @@
 - [[KK Autoscalers]]
 - 05/07
 - [[KK RBAC]]
-- [[KK General Notes for Pods/ Replicas/etc.]]
+- [[KK G/etc.]]
 - 23/07/12
 - [[KK Sheduling]]
 - [[KK Minikube or kubeadm Metrics Server]]
