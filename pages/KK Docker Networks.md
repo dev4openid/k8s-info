@@ -1,4 +1,5 @@
 - # Docker networks  (Total 7 types)
+-
 - These are: bridge / hosts  / mac-vlan
 - Bridge: is the connection via the default bridge ---> so better to define your own network (User-defined bridge)
 	- ```cmake
