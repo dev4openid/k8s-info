@@ -1,4 +1,7 @@
 - # Node Selector and Node Affinity
+- ## Affinity
+- ![Affinity methods](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-04 20-03-00.png)
+- Affinity methods
 ### Node Selector
 - Simple model means labelling the node to get the desired effect
 - `kubectl label node <node-name> <Label-key>=<label-value>`, an e.g. `kubectl label node node01 size=Large` thus the pod now has nodeSelector: of size: Large
