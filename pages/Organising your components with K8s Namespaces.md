@@ -71,3 +71,4 @@
 	  ```
 	- `kubectl api-resources --namespaced=false` does the opposite in these can be used in any namespace
 - Note: use ==kubens== to change default from "default" to the namespace you have created; use `brew install kubectx`
+-
