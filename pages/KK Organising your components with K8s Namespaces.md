@@ -1,4 +1,5 @@
 - # Organising your components with K8s Namespaces (01:46:16)
+  title:: KK Organising your components with K8s Namespaces
 ## namespace
 - `kubectl config set-context --current --namespace=nginx`
 	- is used to move from 'default' tp 'nginx' namespace
