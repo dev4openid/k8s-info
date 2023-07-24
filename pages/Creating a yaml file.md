@@ -19,7 +19,7 @@
 - ![image.png](../assets/image_1686905575254_0.png)
 - Note: the concept of spec within a spec  - this is the actual deployable config - same goes for the service spec
 - ==etcd provides the "defaults" for all Deployments/Services==
-### Blueprint for Pods (Templates)
+- ## Blueprint for Pods (Templates)
 - ==Structure of yaml file:==
 	- ```yaml
 	  apiVersion:
