@@ -10,7 +10,7 @@
 - Git repo link of all the commands: [https://bit.ly/3oZzuHY](https://bit.ly/3oZzuHY)
 - Git repo link: [https://bit.ly/3jY6lJp](https://bit.ly/3jY6lJp)
 -
--
+## Main Kubectl Commands - K8s CLI  (00:44:52)
 - minikube start / stop / delete / status
   minikube dashboard (overview of env and can do more! - more later)
 - example `minikube start --nodes 2 -p local-cluster  --disk-size='5gb' --driver=docker
