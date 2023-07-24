@@ -21,16 +21,13 @@
 - *==Tips:==*
 - create additional worker nodes e.g. `minikube node add --worker -p local-cluster
 - ` ---> local-cluster is a node name
-- `minikube  addons enable metrics-server -p local-cluster
-- ` to generate metrics for dashboard
-- `minikube dashboard --url -p local-cluster
-- `
+- `minikube  addons enable metrics-server -p local-cluster` # to generate metrics for dashboard
+	- `minikube dashboard --url -p local-cluster`
 - `minikube addons enable ingress-p local-cluster
 - ` ---> allow ingress point into minikube
 - *==Note:==* the `-p local-cluster
 - ` to apply to the correct cluster!!
-- `minikube status
-- `
+- `minikube status`
 - result are similar to:
 - minikube
 - type: Control Plane
