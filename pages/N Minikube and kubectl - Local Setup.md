@@ -18,4 +18,3 @@
 	- scheduler
 	- controller manager
 	- etcd  (cluster brain!)
-	- ## Main Kubectl Commands - K8s CLI  (00:44:52)
