@@ -1,4 +1,5 @@
 - # Creating a yaml file
+  title:: KK Creating a yaml file
 - Firstly there is always a Deployment and a Service yaml file (Need both)
 	- Deployment to define what is to be instantiated
 	- Service is to define how the Deployment is to be accessed
