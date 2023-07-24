@@ -19,10 +19,10 @@
 - [[Stateful Sets (STS)]]
 - [[Notes: Secrets and ConfigMaps]]
 - [[Probes]]
-- [[Limits]]
+- [[KK Limits]]
 - [[KK Node Selector and Node Affinity]]
 - [[KK DaemonSets]]
-- [[Autoscalers]]
+- [[KK Autoscalers]]
 - 05/07
 - [[RBAC]]
 -

@@ -1,4 +1,5 @@
 - # Autoscalers
+  title:: KK Autoscalers
 - HPA (Horizonatal Pod Autoscaler  - Horiz.Scaling)
 - VPA (Vertical Pod Autoscaler - Scale UP)
 - CA (Cluster Autoscaler - add new/reduce # of Nodes)
