@@ -1,5 +1,6 @@
 - ## Backup To Remote Server
-  This command will copy, compress and send the image to the remote server.
+- https://linhost.info/2010/10/clone-and-restore-a-hard-drive-over-the-network-with-dd-gzip-and-openssh
+- This command will copy, compress and send the image to the remote server.
   
   dd if=/dev/sdb | gzip -c –-fast | ssh user@ip ‘dd of=/home/user/sdb.img.gz’
   dd= if=/dev/sda | gzip -c --fast | ssh briandanks@192.168.1.103 'dd=/home/briandanks/proxmox-backup/prox-router.img.gz'
