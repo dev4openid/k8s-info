@@ -3,7 +3,6 @@
 - 12/06
 - [[KK Basic Networking]]
 - [[KK Creating a yaml file]]
--
 - 16/06
 - [[KK Demo Project: MongoDB and MongoExpress]]
 - 21/06
@@ -26,7 +25,7 @@
 - [[KK Autoscalers]]
 - 05/07
 - [[KK RBAC]]
-- [[KK Notes of POD/Service/Replicas/etc.]]
+- [[[[KK Notes of POD/Service/Replicas/etc.]]]]
 - 23/07/12
 - [[KK Sheduling]]
 - [[KK Minikube or kubeadm Metrics Server]]
