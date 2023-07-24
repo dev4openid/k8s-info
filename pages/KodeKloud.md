@@ -34,7 +34,7 @@
 - [[K8S Config]]
 - [[K8S Secrets]]
 - [[K8S Commands and Arguments]]
-- [[Taints and Tolerations]]
+- [[KK Taints and Tolerations]]
 - [[KK Node Selector and Node Affinity]]
 - [[Monitoring]]
 -

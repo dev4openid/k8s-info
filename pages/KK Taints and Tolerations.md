@@ -1,4 +1,5 @@
 - # Taints and Tolerations
+  title:: KK Taints and Tolerations
 - Taint is defined in the Node # gives of the smell 🙄
 - ```yaml
   metadata:
