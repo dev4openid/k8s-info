@@ -1,4 +1,5 @@
 - # PROXMOX
+  title:: U Proxmox
 ## Setup post installation
 - 1. nano /etc/apt/sources.list
 	- insert the following:
