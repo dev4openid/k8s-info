@@ -1,6 +1,3 @@
 -
 - [[Creating a yaml file]]
-- [[KK K8s Ingress explained]]
-- [[KK Demo Project: MongoDB and MongoExpress]]
-- [[KK Node Selector and Node Affinity]]
 - [[KK DaemonSets]]
