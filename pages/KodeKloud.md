@@ -1,5 +1,5 @@
 -
 - [[Creating a yaml file]]
--
+- [[KK K8s Ingress explained]]
 - [[KK Node Selector and Node Affinity]]
-- [[DaemonSets]]
+- [[KK DaemonSets]]
