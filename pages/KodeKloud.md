@@ -1,3 +1,4 @@
 -
 - [[Creating a yaml file]]
 - [[Node Selector and Node Affinity]]
+- [[DaemonSets]]
