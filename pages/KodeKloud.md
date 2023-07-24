@@ -3,6 +3,7 @@
 - 12/06
 - [[KK Basic Networking]]
 - [[KK Creating a yaml file]]
+- [[KK Notes of POD/Service/Replicas/etc.]]
 - 16/06
 - [[KK Demo Project: MongoDB and MongoExpress]]
 - 21/06
