@@ -11,7 +11,6 @@
 - Git repo link: [https://bit.ly/3jY6lJp](https://bit.ly/3jY6lJp)
 -
 ## Main Kubectl Commands - K8s CLI  (00:44:52)
--
 - ### Minikube
 - minikube start / stop / delete / status
   minikube dashboard (overview of env and can do more! - more later)
@@ -35,13 +34,13 @@
 - result are similar to:
 - minikube
 - type: Control Plane
-  host: R
-- unning
+  host: Running
 - kubelet: Running
   apiserver: Running
   kubeconfig: Configured
 -
 - ### kubectl
+- [[N K8s yaml Configuration File]]
 - ![kubectl command structure](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-23 09-12-10.png){:height 338, :width 668}
 - `kubectl version`
 - create deployment   (abstraction over pods)
