@@ -342,8 +342,7 @@
  :journal/page-title-format "yyyy/MM/dd"
  :graph/settings {:journal? false, :excluded-pages? true}
  :feature/enable-timetracking? false
- :feature/enable-journals? true
- :default-home {}
+ :feature/enable-journals? false
 
  ;; specify the format of the filename for journal files
  ;; :journal/file-name-format "yyyy_MM_dd"
