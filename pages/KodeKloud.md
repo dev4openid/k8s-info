@@ -1,5 +1,6 @@
-- # KK [[kubernetes]] Contents
+- # KK K8s Contents
   title:: KodeKloud
+- [[kubernetes]]
 - 12/06
 - [[KK Basic Networking]]
 - [[KK Creating a yaml file]]
