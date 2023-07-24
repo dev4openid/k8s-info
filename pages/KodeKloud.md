@@ -1,4 +1,4 @@
-- # KK K8s Contents
+- # KK [[kubernetes]] Contents
   title:: KodeKloud
 - 12/06
 - [[KK Basic Networking]]
