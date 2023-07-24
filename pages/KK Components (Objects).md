@@ -4,6 +4,6 @@
 	- [[Secrets]]
 	- [[KK ConfigMap]]
 	- [[KK Ingress]]
-	- [[LoadBalancer]]
+	- [[KK LoadBalancer]]
 	-
 	-

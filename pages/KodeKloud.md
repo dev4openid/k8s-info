@@ -29,7 +29,7 @@
 - 23/07/12
 - [[KK Sheduling]]
 - [[KK Minikube or kubeadm Metrics Server]]
-- [[K8S Env variables]]
+- [[KK Env variables]]
 - [[KK ConfigMap]]
 - [[KK Secrets]]
 - [[KK K8S Commands and Arguments]]
