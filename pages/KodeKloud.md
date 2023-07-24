@@ -6,7 +6,7 @@
 - [[KK Demo Project: MongoDB and MongoExpress]]
 - 21/06
 - [[Organising your components with K8s Namespaces ]]
-- [[KK K8s Ingress explained]]
+- [[KK Ingress]]
 - 24/06
 - [[CodeScene (ML Tools - Useful?)]]
 - [[KK Ingress]]
