@@ -18,7 +18,7 @@
 - [[Notes: Secrets and ConfigMaps]]
 - [[Probes]]
 - [[Limits]]
-- [[Node Selector and Node Affinity]]
+- [[KK Node Selector and Node Affinity]]
 - [[Autoscalers]]
 - 05/07
 - [[RBAC]]
@@ -32,6 +32,6 @@
 - [[K8S Secrets]]
 - [[K8S Commands and Arguments]]
 - [[Taints and Tolerations]]
-- [[Node Selector and Node Affinity]]
+- [[KK Node Selector and Node Affinity]]
 - [[Monitoring]]
 -

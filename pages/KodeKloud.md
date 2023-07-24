@@ -1,4 +1,4 @@
 -
 - [[Creating a yaml file]]
-- [[Node Selector and Node Affinity]]
+- [[KK Node Selector and Node Affinity]]
 - [[DaemonSets]]
