@@ -1,7 +1,7 @@
 - Structural components are:
 	- [[Pods]]
 	- [[KK Deployments]]
-	- [[Secrets]]
+	- [[KK Secrets]]
 	- [[KK ConfigMap]]
 	- [[KK Ingress]]
 	- [[KK LoadBalancer]]
