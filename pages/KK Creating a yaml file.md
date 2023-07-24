@@ -44,3 +44,5 @@
 	  ```
 - *==Tip:==*
 	- use `kubectl api-resources | grep deployment`  ---> (or service /  secret / configmap / pods)
+-
+-
