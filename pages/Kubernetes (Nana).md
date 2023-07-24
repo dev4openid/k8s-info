@@ -7,7 +7,6 @@
 - INSTAGRAM ► [https://bit.ly/2F3LXYJ](https://bit.ly/2F3LXYJ)
 - LINKEDIN ► [https://bit.ly/3hWOLVT](https://bit.ly/3hWOLVT)
 - ▬▬▬▬▬▬ T I M E S T A M P S ⏰ ▬▬▬▬▬▬
-- ▬▬▬▬▬▬ T I M E S T A M P S ⏰ ▬▬▬▬▬▬
   0:00 - Course Overview
   2:18 - What is K8s
   5:20 - Main K8s Components
@@ -22,3 +21,17 @@
   2:38:07 - Persisting Data in K8s with Volumes
   2:58:38 - Deploying Stateful Apps with StatefulSet
   3:13:43 - K8s Services explained
+-
+- ▬▬▬▬▬▬ COURSE OVERVIEW 📚 ▬▬▬▬▬▬
+- [[What is Kubernetes]]
+	- [[N Main K8s Components]]
+	- [[N K8s Architecture]]
+	- [[N Minikube and kubectl - Local Setup]]
+	- [[N Main Kubectl Commands - K8s CLI]]
+	- [[N Organizing your components with K8s Namespaces]]
+	- [[N K8s Ingress explained]]
+	- [[N Helm - Package Manager]]
+	- [[N Persisting Data in K8s with Volumes]]
+	- [[N Stateful Apps with StatefulSet]]
+	- [[N K8s Services]]
+	-
