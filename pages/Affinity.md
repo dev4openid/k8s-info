@@ -1,0 +1,3 @@
+- ## Affinity
+- ![Affinity methods](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-04 20-03-00.png)
+- Affinity methods
