@@ -5,7 +5,7 @@
 - 16/06
 - [[KK Demo Project: MongoDB and MongoExpress]]
 - 21/06
-- [[KK Organising your components with K8s Namespaces]]
+- [[KK Organising your components with Namespaces]]
 - [[KK Ingress]]
 - 24/06
 - [[KK Ingress]]
