@@ -1,7 +1,7 @@
 - # Connecting components (labels, selectors and ports)
 - ![Connecting Deployments to Pods](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-20 15-47-49.png){:height 380, :width 650}
 - Connecting Deployments to Pods
-- ![image.png](../assets/image_1686905760664_0.png){:height 380, :width 650}
+- ![image.png](../assets/image_1686905760664_0.png){:height 427, :width 698}
 - Connecting Services to Deployments
 - Note the Service selector allow access to the deployment at BOTH the Deployment level AND the Pod level - i.e. the Sevice is attached to all Deployment of nginx, which have a 1 or more Pod/s in it! Only then it is applied (This is the reason for the metadata labels and selector)
 - ![image.png](../assets/image_1686906061887_0.png)
