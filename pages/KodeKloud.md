@@ -20,7 +20,6 @@
 - [[KK DaemonSets]]
 - [[KK Autoscalers]]
 - [[KK RBAC]]
-- [[zzKK Notes of POD/Service/Replicas/etc.]]
 - [[KK Sheduling]]
 - [[KK Minikube or kubeadm Metrics Server]]
 - [[KK Env variables]]
