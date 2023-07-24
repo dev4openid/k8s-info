@@ -115,3 +115,12 @@
 	- `kubectl delete service nginx-service`
 	- `kubectl delete pod nginx-service`
 	- `kubectl delete deployment  nginx2-depl`
+-
+- ### Managing Deployments
+	- *==TIP:==*
+		- `kubectl delete all --all` means all resources in namespace are deleted
+		- Always leverage the apply - f filename.yaml rather than cli
+	- ### History and reversion
+	- `kubectl rollout history deployment/mongodb-deployment`---> provides the history of the deployment
+	- `~kubectl rollout undo deployment/mongodb-deployment --to-revision=2`---> revert to a specific version
+	-
