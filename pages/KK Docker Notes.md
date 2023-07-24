@@ -22,7 +22,7 @@
 		- so run docker: docker run -v data-volume:/var/lib/mydql mysql
 	- e.g Another somewhere else: (/data/mysql) (Bind Mount)
 		- docker run - v /data/mysql:var/lib/mysql mysql
-			- #read as from where the volume exists (/data/mysql), mount it to mysql expected storage being var/lib/mysql mysql
+		- read as from where the volume exists (/data/mysql), mount it to mysql expected storage being var/lib/mysql mysql
 	- Notes: docker run --mount type=bind,source=/data/mysql,target=var/lin/sql mysql  (Modern Method)
 - Storage drivers:
 	- aufs
