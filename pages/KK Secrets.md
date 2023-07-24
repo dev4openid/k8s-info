@@ -90,3 +90,5 @@
               name: db-secret		# db-secret yaml file
   ```
 -
+- [[Notes: Secrets and ConfigMaps]]
+-
