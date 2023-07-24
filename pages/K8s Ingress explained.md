@@ -1,10 +1,10 @@
 - # K8s Ingress explained (02:01:52)
 - External Service vs. Ingress
 	- Place Ingress in front of "external service" (which becomes internal); this way anyone with the url can access the application (via the external service) via the Ingress (which masks the k8s internals)
-- ![Ingress Concepts](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-23 17-32-50.png)
+- ![Ingress Concepts](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-23 17-32-50.png){:height 382, :width 708}
 - Ingress Concepts
 - Ingres yaml:
-- ![Ingres mapping to "external service"](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-21 18-38-45.png)
+- ![Ingres mapping to "external service"](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-21 18-38-45.png){:height 298, :width 756}
 - Ingres mapping to "external service" (now converted to an internal service)
 - Note the url is http (not https) and the e.g. is browser my-app.com points to the host (in Ingress) ---> unless there is a TLS defined and included as a secret
 ### Converting external service to internal service (to support Ingress)
