@@ -24,8 +24,7 @@
 - [[KK DaemonSets]]
 - [[KK Autoscalers]]
 - 05/07
-- [[RBAC]]
--
+- [[KK RBAC]]
 - [[General Notes for Pods/ Replicas/etc.]]
 - 23/07/12
 - [[KK Sheduling]]
@@ -36,5 +35,5 @@
 - [[K8S Commands and Arguments]]
 - [[KK Taints and Tolerations]]
 - [[KK Node Selector and Node Affinity]]
-- [[Monitoring]]
+- [[KK Monitoring]]
 -
