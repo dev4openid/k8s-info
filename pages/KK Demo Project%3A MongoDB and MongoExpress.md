@@ -1,4 +1,5 @@
 - # Demo Project: MongoDB and MongoExpress  (01:16:16)
+  title:: KK Demo Project: MongoDB and MongoExpress
 ### Scope
 	- ![Overview of K8s Components](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-20 20-01-16.png)
 	- Overview of K8s Components

@@ -1,7 +1,7 @@
 - 12/06
 - [[Basic Networking]]
 - 16/06
-- [[Demo Project: MongoDB and MongoExpress]]
+- [[KK Demo Project: MongoDB and MongoExpress]]
 - 21/06
 - [[Organising your components with K8s Namespaces ]]
 - [[KK K8s Ingress explained]]
