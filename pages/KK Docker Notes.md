@@ -1,3 +1,29 @@
+- # Docker notes
+- Remote docker container:
+- ```cmake
+  e.g.
+  	docker -H=remote-docker-engine:2375	# remote-docker-engine is IP number
+      docker -H=10.123.2.1:2375 run nginx
+  ```
+- cgroups
+	- docker run --cpus=.5 ubuntu                  # cannot have more than 50% of cpus
+	- docker run --memory=.100m ubuntu      # cannot have more than 100 MB of memory
+- File Systems
+	- docker stores all files in:
+	- /var/lib/docker
+		- aufs
+		- containers
+		- image
+		- volumes
+-
+	- docker volume create data-volume --->
+	- e.g. Default: (Volume Mount)
+		- /var/lib/docker/volumes/data-volume
+		- so run docker: docker run -v data-volume:/var/lib/mydql mysql
+	- e.g Another somewhere else: (/data/mysql) (Bind Mount)
+		- docker run - v /data/mysql:var/lib/mysql mysql
+			- #read as from where the volume exists (/data/mysql), mount it to mysql expected storage being var/lib/mysql mysql
+	- Notes: docker run --mount type=bind,source=/data/mysql,target=var/lin/sql mysql  (Modern Method)
 - Storage drivers:
 	- aufs
 	- zfs
