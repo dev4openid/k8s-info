@@ -28,8 +28,8 @@
 -
 - [[General Notes for Pods/ Replicas/etc.]]
 - 23/07/12
-- [[Sheduling]]
-- [[Minikube or kubeadm Metrics Server]]
+- [[KK Sheduling]]
+- [[KK Minikube or kubeadm Metrics Server]]
 - [[K8S Env variables]]
 - [[K8S Config]]
 - [[K8S Secrets]]
