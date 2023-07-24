@@ -1,0 +1,13 @@
+- # Volumes
+- ephemeral (this are trasient and are deleted - whether a) at a container level or b) pod level or c) at the node level)
+- persistent volumes (such as AWs / GCP / Azure etc) ensure the data is permanent
+-
+- 3 variations for persistent data
+	- Persistent Volumes
+	- Persistent Volume Claims
+	- Storage Classes
+- definition Kind: Persistent Volume
+- ![app ---> pvc ---> pv ---> storage (e.g. local)](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-29 18-00-56.png)
+- app ---> pvc ---> pv ---> storage (e.g. local)
+-
+- Are they still active? kube-ps1, kubectx and minikube
