@@ -120,7 +120,7 @@
   
   ```
 -
-- Note: Role and RoleBinding is always limited to a namespace
+- *==Note:==* Role and RoleBinding is always limited to a namespace
 - To get around this leverage cluster level means all resources in all namespaces are visible
 - ```cmake
   # Leverage the cluster rolebinding # cluster-role.yaml AND cluster-role-binding.yaml
@@ -145,7 +145,7 @@
   ```
 -
 - For all users:
-- Note: the openssl creta csr we nominated briand to be member of O=dev (which is a group) and the group dev is in the cluster-role-binding.yaml the anyone belonging to group O=dev can inherit permissions
+- *==Note:==* the openssl creta csr we nominated briand to be member of O=dev (which is a group) and the group dev is in the cluster-role-binding.yaml the anyone belonging to group O=dev can inherit permissions
 -
 ### Service accounts
 - Every namespace created has a service-account created as default
