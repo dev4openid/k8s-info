@@ -8,9 +8,12 @@
 - [[KK Notes of POD_Service_Replicas_etc]]
 - Deployments
 - [[KK Notes: Secrets and ConfigMaps]]
+- [[KK Secrets]]
+- [[KK ConfigMap]]
+- [[KK Ingress]]
 - [[KK Demo Project: MongoDB and MongoExpress]]
 - [[KK Organising your components with Namespaces]]
-- [[KK Ingress]]
+-
 - [[KK Volumes]]
 -
 - [[KK Stateful Sets (STS)]]
@@ -24,8 +27,7 @@
 - [[KK RBAC]]
 - [[KK Sheduling]]
 - [[KK Env variables]]
-- [[KK ConfigMap]]
-- [[KK Secrets]]
+-
 - [[KK K8S Commands and Arguments]]
 - [[KK Taints and Tolerations]]
 - [[KK Node Selector and Node Affinity]]
