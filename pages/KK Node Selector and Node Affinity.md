@@ -2,6 +2,7 @@
   title:: KK Node Selector and Node Affinity
 - ## Affinity Summary
 - ![Affinity methods](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-04 20-03-00.png)
+  id:: 96fff468-db80-49f9-9c48-4853f9b9bfd7
 - Affinity methods
 ### Node Selector
 - Simple model means labelling the node to get the desired effect
