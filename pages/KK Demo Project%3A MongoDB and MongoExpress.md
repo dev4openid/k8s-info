@@ -14,10 +14,10 @@
 	- `echo -n 'username' | base64`
 	- `echo -n 'password' | base64`
 	- Note use proper UID and PWd in reality
-- Note:  the Order Matters (follow order below!)
-	- create secret first
-	- deployment
-	- service
+- >Note:  the Order Matters (follow order below!)
+  >>create secret first
+  deployment
+  service
 - To include secret into deployment:
 - ![image.png](../assets/image_1686918180776_0.png){:height 327, :width 654}
 - 1:38:08
