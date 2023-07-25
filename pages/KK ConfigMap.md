@@ -24,7 +24,7 @@
   ```
 - Also a CLI version is: `kubectl create configmap webapp-config-map --from-literal=APP_COLOR=darkblue`
 -
-- *==Note:==* Do NOT forget
-- `kubectl replace --force -f new-pod-defintion.yaml    # replace an existing pod`
+- >*==Note:==* Do NOT forget
+  `kubectl replace --force -f new-pod-defintion.yaml    # replace an existing pod`
 -
 - [[Notes: Secrets and ConfigMaps]]
