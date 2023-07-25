@@ -1,9 +1,9 @@
 - # Probes
   title:: KK Probes
 - check for:
-	- liveness
-	- readiness
-	- startup
+  > liveness
+  > readiness
+  > startup
 - ![Probes options/strategies](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-04 14-25-02.png){:height 300, :width 650}
 - Probes options/strategies
 - ![Probe tolerances](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-04 14-28-16.png){:height 270, :width 650}
