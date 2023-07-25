@@ -8,7 +8,8 @@
 - Ingres mapping to "external service" (now converted to an internal service)
 - Note the url is http (not https) and the e.g. is browser my-app.com points to the host (in Ingress) ---> unless there is a TLS defined and included as a secret
 - ## Converting external service to internal service (to support Ingress)
-- In the Service the nodePort is removed AND
+- In the Service: 
+  the nodePort is removed AND
   the spec - type is not Loadbalancer but ClusterIP  (NB: the internal service has "built-in loadbalancer")
 - Ingress host must be a valid domain name!
 - >*==Note:==* Ingress sets up ==mapping== to access internal service etc.
