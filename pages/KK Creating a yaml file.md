@@ -1,6 +1,7 @@
 - # Creating a yaml file
   title:: KK Creating a yaml file
 - Firstly there is always a Deployment and a Service yaml file (Need both)
+  id:: bc789f50-30a0-422c-b0ad-c1ff74b38050
   > Deployment to define what is to be instantiated
   > Service is to define how the Deployment is to be accessed
 - ![Metadata](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-20 13-38-12.png)
