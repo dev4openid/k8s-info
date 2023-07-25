@@ -1,6 +1,5 @@
 - #Ingress (02:01:52)
-  title:: KK Ingress
-- External Service vs. Ingress
+- #External Service vs. Ingress
   > Place Ingress in front of "external service" (which becomes internal); this way anyone with the url can access the application (via the external service) via the Ingress (which masks the k8s internals)
 - ![Ingress Concepts](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-23 17-32-50.png){:height 382, :width 708}
 - Ingress Concepts
@@ -12,7 +11,7 @@
 - In the Service the nodePort is removed AND
   the spec - type is not Loadbalancer but ClusterIP  (NB: the internal service has "built-in loadbalancer")
 - Ingress host must be a valid domain name!
-- > *==Note:==* Ingress sets up ==mapping== to access internal service etc.
+- >*==Note:==* Ingress sets up ==mapping== to access internal service etc.
 - Require an Ingress Controller Pod (which is mapped to Ingress)
 	- which evaluates and processes Ingress rules - entrypoint to K8s cluster and is part of the cluster
 - ![Ingress Controller to Ingress](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-21 18-51-47.png){:height 379, :width 552}
