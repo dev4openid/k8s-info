@@ -8,12 +8,12 @@
 	- Service = 2
 	- Configmap = 1
 	- Secret = 1
-	- - Leveraging MongoDB and MongoExpress
+	- Leveraging MongoDB and MongoExpress
 - (01:22:37) Create and manage Secrets (type Opaque -default for arbitrary key:value pair)
 - (01:23:04) Create the Secret (base64 encoded keys)
 	- `echo -n 'username' | base64`
 	- `echo -n 'password' | base64`
-	- Note use proper UID and PWd in reality
+	- **Note** use proper UID and PWd in reality
 - >Note:  the Order Matters (follow order below!)
   >>create secret first
   deployment
