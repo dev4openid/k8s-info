@@ -6,10 +6,10 @@
 - if the ordered sequence of pods has a problem with any node the the process stops and no further pods are initiated (sequence dependency in the order)
 - e.g.
 	- mongodb-0.mongodb-svc.default.svc.cluster.local:27017   (coreDNS reference)
-		- >==Note:==
-			- mongodb-0 is the pod name plus a -increment (e.g. -0 and so forth)
-			- mongodb-svc is the service name
-			- default is the minikube default or could be any namespace
+	- >*==Note:==*
+	  >mongodb-0 is the pod name plus a -increment (e.g. -0 and so forth)
+	  >mongodb-svc is the service name
+	  >default is the minikube default or could be any namespace
 - ![Deployment vs. Statefulset](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-04 10-51-40.png){:height 220, :width 650}
 - Deployment vs. Statefulset
 - The pods are now sequence BUT need to set up replicaset to ensure data is consistent from master to slaves
