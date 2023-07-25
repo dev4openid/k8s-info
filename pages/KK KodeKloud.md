@@ -4,14 +4,17 @@
 - [[KK General List to memorise]]
 - [[KK Minikube or kubeadm Metrics Server]]
 - [[KK Creating a yaml file]]
+- [[KK Components (Objects)]]
 - [[KK Notes of POD_Service_Replicas_etc]]
+- Deployments
+- [[KK Notes: Secrets and ConfigMaps]]
 - [[KK Demo Project: MongoDB and MongoExpress]]
 - [[KK Organising your components with Namespaces]]
 - [[KK Ingress]]
 - [[KK Volumes]]
-- [[KK Components (Objects)]]
+-
 - [[KK Stateful Sets (STS)]]
-- [[KK Notes: Secrets and ConfigMaps]]
+-
 - [[KK Basic Networking]]
 - [[KK Probes]]
 - [[KK Limits]]
