@@ -6,7 +6,7 @@
       docker -H=10.123.2.1:2375 run nginx
   ```
 - cgroups
-	- docker run --cpus=.5 ubuntu                  # cannot have more than 50% of cpus
+	- docker run --cpus=.5 ubuntu           # cannot have more than 50% of cpus
 	- docker run --memory=.100m ubuntu      # cannot have more than 100 MB of memory
 - File Systems
 	- docker stores all files in:
