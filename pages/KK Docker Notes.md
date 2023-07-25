@@ -78,4 +78,3 @@
 		  ```
 		- docker pull 192.168.56.100:5000/postgres   # local is 192.168.56.100
 -
--
