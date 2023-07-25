@@ -48,6 +48,6 @@
   `minikube service mongoexpress-service` can be used to invoke above directly
 - ![Overall user into K8s flow](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-20 22-01-11.png)
 - Overall user into K8s flow
-- Note: debugging or progress tracking use:
+- >Note: debugging or progress tracking use:
   `kubectl logs mongodb-deployment-5d966bd9d6-l44q7`
 	-
