@@ -11,7 +11,7 @@
 	  kube-public       Active     12h ---> `kubectl cluster-info` will give you key info
 	  kube-system       Active     12h  ---> leave alone
 -
--
+- /mark
 -
 -
 -
