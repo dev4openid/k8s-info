@@ -8,7 +8,7 @@
 	- Kind: LimitRange defines limits for a *Pod* or *Container*
 	- Otherwise the requests are tailored as content within a Pod or Container
 - Strategies for OOM remedy/diagnostics
-	- kubectl get pods - check status and restart count
-	- kubectl logs for a specific container
-	- kubectl top - reflects biggest resource capacity and utilisation
+  > kubectl get pods - check status and restart count
+  > kubectl logs for a specific container
+  > kubectl top - reflects biggest resource capacity and utilisation
 	-
