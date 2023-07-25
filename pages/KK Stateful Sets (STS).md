@@ -13,20 +13,20 @@
 - ![Deployment vs. Statefulset](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-04 10-51-40.png){:height 220, :width 650}
 - Deployment vs. Statefulset
 - The pods are now sequence **BUT** need to set up replicaset to ensure data is consistent from master to slaves
-	- `kubectl exec -it mongo-0 -- mongo`
-	- then in mongo at prompt execute
-		- ```json
-		  rs.initiate(
-		  	{
-		      _id:"rs0",	# rs0 is the replicaset name
-		        members: [
-		          {_id:0, host : "mongo-0.mongo.default.svc.cluster.local:27017"},
-		          {_id:0, host : "mongo-1.mongo.default.svc.cluster.local:27017"},
-		          {_id:0, host : "mongo-2.mongo.default.svc.cluster.local:27017"}
-		        ]
-		      }
-		  )
-		  ```
+	- >`kubectl exec -it mongo-0 -- mongo`
+	  >then in mongo at prompt execute
+	  >```json
+	  rs.initiate(
+	  	{
+	      _id:"rs0",	# rs0 is the replicaset name
+	        members: [
+	          {_id:0, host : "mongo-0.mongo.default.svc.cluster.local:27017"},
+	          {_id:0, host : "mongo-1.mongo.default.svc.cluster.local:27017"},
+	          {_id:0, host : "mongo-2.mongo.default.svc.cluster.local:27017"}
+	        ]
+	      }
+	  )
+	  ```
 	- then exit and reenter, look for `rs.status()`and check the prompt is rs0:PRIMARY (this can be checked for rs1:SECONDARY or rs2 :SECONDARY)
 	- goto `kubectl exec -it mongo-1 -- mongo` and execute `rs.slaveOk()`to invoke the sync of data from master to slaves
 -
