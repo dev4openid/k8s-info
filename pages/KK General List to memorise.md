@@ -21,7 +21,7 @@
 -
 - |||
   
-  |||
+  |kube-scheduler||
   |etcd|Consistent and highly-available key value store used as Kubernetes' backing store for all cluster data|
   |kube-controller-manager |Control plane component that runs controller processes|
   |cloud-controller-manager|---> A Kubernetes control plane component that embeds cloud-specific control logic|
