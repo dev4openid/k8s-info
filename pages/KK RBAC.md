@@ -1,8 +1,9 @@
 - # RBAC
+- Introduction:
 - ![Overall view of k8s infrastructure](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-05 10-15-58.png){:height 370, :width 650}
 - Overall view of k8s infrastructure
 - Check `vi ~/.kube/config`
-- To add a new user:
+- ## To add a new user:
 - ```cmake
   #create a user key: 
   openssl genrsa -out briand.key
