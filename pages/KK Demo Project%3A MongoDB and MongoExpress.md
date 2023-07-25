@@ -44,7 +44,7 @@
   | kube-system | kube-dns             | No node port |                           |
   |-------------|----------------------|--------------|---------------------------|
 - e.g Use `http://192.168.49.2:30000` and have access
-- >Note: all external ports are 30000 and above
+- >*==Note:==* all external ports are 30000 and above
   `minikube service mongoexpress-service` can be used to invoke above directly
 - ![Overall user into K8s flow](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-20 22-01-11.png)
 - Overall user into K8s flow
