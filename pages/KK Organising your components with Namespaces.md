@@ -1,9 +1,9 @@
 - # Organising your components with K8s Namespaces (01:46:16)
   title:: KK Organising your components with Namespaces
-## namespace
+- ## namespaces
 - `kubectl config set-context --current --namespace=nginx`
 	- is used to move from 'default' tp 'nginx' namespace
-### K8s Namespaces explained
+- ## K8s Namespaces explained
 - Default `kubectl get namespace`  ---> 4 namespaces by default
 	- NAME              STATUS     AGE
 	- default           Active     12h
@@ -11,13 +11,13 @@
 	  kube-public       Active     12h ---> `kubectl cluster-info` will give you key info
 	  kube-system       Active     12h  ---> leave alone
 -
-	- ## K8s Namespaced Explaoned
-	  |Name |Status| Age| Comment|
-	  |--|--|--|--|
-	  |default |Active |12h | |
-	  |kube-node-lease |Active |12h |heartbeat of nodes |
-	  |kube-public|Active |12h |`kubectl cluster-info` will give you key info |
-	  |kube-system        |Active|12h| leave alone |
+- ## K8s Namespaced Explained
+  |Name |Status| Age| Comment|
+  |--|--|--|--|
+  |default |Active |12h | |
+  |kube-node-lease |Active |12h |heartbeat of nodes |
+  |kube-public|Active |12h |`kubectl cluster-info` will give you key info |
+  |kube-system        |Active|12h| leave alone |
 -
 -
 -
