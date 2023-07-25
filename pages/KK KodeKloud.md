@@ -16,19 +16,19 @@
 -
 - [[KK Volumes]]
 - [[KK Node Selector and Node Affinity]]
--
-- [[KK Stateful Sets (STS)]]
--
-- [[KK Basic Networking]]
-- [[KK Probes]]
 - [[KK Limits]]
-- [[KK Node Selector and Node Affinity]]
+- [[KK Taints and Tolerations]]
 - [[KK DaemonSets]]
 - [[KK Autoscalers]]
 - [[KK RBAC]]
 - [[KK Sheduling]]
 - [[KK Env variables]]
+- [[KK Stateful Sets (STS)]]
+-
+- [[KK Basic Networking]]
+- [[KK Probes]]
+-
 -
 - [[KK K8S Commands and Arguments]]
-- [[KK Taints and Tolerations]]
+-
 - [[KK Monitoring]]
