@@ -1,7 +1,7 @@
 - # KK K8s Contents
   title:: KK KodeKloud
 - [[kubernetes]]
-- [[KK Basic Networking]]
+- [[KK Minikube or kubeadm Metrics Server]]
 - [[KK Creating a yaml file]]
 - [[KK Notes of POD_Service_Replicas_etc]]
 - [[KK Demo Project: MongoDB and MongoExpress]]
@@ -12,6 +12,7 @@
 - [[KK Components (Objects)]]
 - [[KK Stateful Sets (STS)]]
 - [[KK Notes: Secrets and ConfigMaps]]
+- [[KK Basic Networking]]
 - [[KK Probes]]
 - [[KK Limits]]
 - [[KK Node Selector and Node Affinity]]
@@ -19,7 +20,6 @@
 - [[KK Autoscalers]]
 - [[KK RBAC]]
 - [[KK Sheduling]]
-- [[KK Minikube or kubeadm Metrics Server]]
 - [[KK Env variables]]
 - [[KK ConfigMap]]
 - [[KK Secrets]]
