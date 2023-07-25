@@ -48,6 +48,5 @@
 - `minikube ip -p local-cluster` results in 192.168.49.2 which is the entry point to the cluster
 -
 - *==Note:==*
-  title:: KK Ingress
-- In ingress video at 11:23 look at paths and what they mean - Exact or Prefix
-- On the cloud, map the CNAME to the loadbalancer
+  > In ingress video at 11:23 look at paths and what they mean - Exact or Prefix
+  > On the cloud, map the CNAME to the loadbalancer
