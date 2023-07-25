@@ -1,4 +1,4 @@
 type:: project
 state:: DOING
 
-- {{query }}
+- {{query [[Project]]}}
