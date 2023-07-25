@@ -1,4 +1,4 @@
 - Courses:
-  > [[KodeKloud]]
+  > [[KK KodeKloud]]
   >[[N Kubernetes (Nana)]]
 - [[Utilities]]
