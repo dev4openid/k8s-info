@@ -19,7 +19,12 @@
   > kube-controller-manager  ---> Control plane component that runs controller processes
   cloud-controller-manager ---> A Kubernetes control plane component that embeds cloud-specific control logic.
 -
--
+- |k|k|
+  |k|k|
+  |||
+  |||
+  |||
+  |||
 -
 -
 ### yaml file format
