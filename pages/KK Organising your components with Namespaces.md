@@ -14,10 +14,10 @@
 	- ## M
 	  |Name |Status| Age| Comment|
 	  |--|--|--|--|
-	  |default |Active |12h ||
-	  ||Active |||
-	  ||Active|Active||
-	  ||Active|||
+	  |default |Active |12h |heartbeat of nodes |
+	  ||Active |12h |heartbeat of nodes |
+	  ||Active|12h ||
+	  ||Active|12h||
 	  ||Active|||
 -
 -
