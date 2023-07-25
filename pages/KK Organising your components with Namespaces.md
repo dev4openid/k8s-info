@@ -25,12 +25,12 @@
 	  ```
 -
 - ## Usecase to use namespace
-	- associate types of resources in a group e.g. Database / Monitoring / Elastic Stack
-	  
+	- > associate types of resources in a group e.g. Database / Monitoring / Elastic Stack
 	  Conflicts between teams, same application (but different deployment)
-	- Staging vs Development using common "services"
-	- Production "Blue" and "Green"
-	- Team Access and Resource Limits on namespaces. Limit CPU/RAM/Storage by a team on a common resource ("out of balance between teams")
+	  Staging vs Development using common "services"
+	  Production "Blue" and "Green"
+	  
+	  Team Access and Resource Limits on namespaces. Limit CPU/RAM/Storage by a team on a common resource ("out of balance between teams")
 -
 - ## Access Service in another namespace
 	- Each namespace must have on configmap and/or secret to access common resource (e.g. database)
