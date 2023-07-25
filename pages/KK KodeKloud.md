@@ -15,6 +15,7 @@
 - [[KK Organising your components with Namespaces]]
 -
 - [[KK Volumes]]
+- [[KK Node Selector and Node Affinity]]
 -
 - [[KK Stateful Sets (STS)]]
 -
@@ -30,5 +31,4 @@
 -
 - [[KK K8S Commands and Arguments]]
 - [[KK Taints and Tolerations]]
-- [[KK Node Selector and Node Affinity]]
 - [[KK Monitoring]]
