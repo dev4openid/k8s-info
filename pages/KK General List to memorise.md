@@ -23,7 +23,7 @@
   |k|k|
   |c|c|
   |c|c|
-  |c|c|
+  |kube-controller-manager|Control plane component that runs controller processes|
   |cloud-controller-manager |A Kubernetes control plane component that embeds cloud-specific control logic|
 -
 -
