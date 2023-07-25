@@ -20,3 +20,15 @@
         command: ["sleep", "20"]
   ```
 -
+- Application Command
+- From docker `docker run ubuntu sleep 5` # NoteOR creat a dockerfile FROM ubuntu CMD sleep CMD 5 OR ["sleep", "5]"
+- OR FROM ubuntu ENTRYPOINT 10 # becomes docker run ubuntu-sleeper 10
+- OR FROM ubuntu ENTRYPOINT ["sleep"] CMD ["5"] # defaults if parameter of 10 **or** is forgotten
+- OR ENTRYPOINT can be overridden by a second instance of ENTRYPOINT ["sleep2.0"]
+- ```
+      # docker example
+        docker run --name ubuntu-sleeper \
+        	--entrypoint sleep2.0
+            ubuntu-sleeper 10
+    ```
+-
