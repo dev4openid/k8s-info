@@ -1,4 +1,4 @@
 type:: project
 state:: DOING
 
-- DOING {{query }} + [[Project]] +/tas
+- DOING {{query }} + [[Project]] {{renderer agenda, task-list}}
