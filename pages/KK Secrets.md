@@ -2,6 +2,7 @@
   title:: KK Secrets
 - ![Imperative Secrets](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-20 20-33-09.png){:height 360, :width 650}
 - Imperative Secrets
+  id:: f4655dab-7e1d-494f-bed1-da4ecfb0f3d9
 - ![Declarative Secrets](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-20 20-36-10.png){:height 336, :width 648}
 - Declarative Secrets
 - ![Encrypt Secret (Data Row iteratively)](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-20 20-38-02.png){:height 426, :width 650}
