@@ -1,9 +1,9 @@
 - # Stateful Service (STS)
-- each pod will connect to it's own PVC and PV
-- but service is NOT LoadBalancer but None (i.e. a Headless Service) ---> clusterIP: None
-- all pods are ordered pods with sticky ID (to ensure consistency and allow slaves/master to find each other for replication)
-- only master is read/write - slaves are read only
-- if the ordered sequence of pods has a problem with any node the the process stops and no further pods are initiated (sequence dependency in the order)
+- >each pod will connect to it's own PVC and PV
+  >but service is NOT LoadBalancer but None (i.e. a Headless Service) ---> clusterIP: None
+  >all pods are ordered pods with sticky ID (to ensure consistency and allow slaves/master to find each other for replication)
+  >only master is read/write - slaves are read only
+  >if the ordered sequence of pods has a problem with any node the the process stops and no further pods are initiated (sequence dependency in the order)
 - e.g.
 	- mongodb-0.mongodb-svc.default.svc.cluster.local:27017   (coreDNS reference)
 	- >*==Note:==*
