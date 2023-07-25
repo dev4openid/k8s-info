@@ -10,7 +10,11 @@
 - sts
 -
 -
--
+- |Component|Description|
+  |--|--|
+  |Container runtime|The container runtime is the software that is responsible for running containers|
+  |||
+  |||
 -
 - ## Node Components
 - > Container runtime  ---> The container runtime is the software that is responsible for running containers.
