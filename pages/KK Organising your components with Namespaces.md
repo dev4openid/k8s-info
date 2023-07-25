@@ -3,13 +3,6 @@
 - ## namespaces
 - `kubectl config set-context --current --namespace=nginx`
 	- is used to move from 'default' tp 'nginx' namespace
-- ## K8s Namespaces explained
-- Default `kubectl get namespace`  ---> 4 namespaces by default
-	- NAME              STATUS     AGE
-	- default           Active     12h
-	  kube-node-lease   Active     12h  ---> heartbeat of nodes
-	  kube-public       Active     12h ---> `kubectl cluster-info` will give you key info
-	  kube-system       Active     12h  ---> leave alone
 -
 - ## K8s Namespaced Explained
   |Name |Status| Age| Comment|
@@ -18,9 +11,6 @@
   |kube-node-lease |Active |12h |heartbeat of nodes |
   |kube-public|Active |12h |`kubectl cluster-info` will give you key info |
   |kube-system        |Active|12h| leave alone |
--
--
--
 -
 - Create namespace `kubectl create namespace my-namespace`  BUT better in configmap file!
 - e.g.:
@@ -39,7 +29,8 @@
 	- Staging vs Development using common "services"
 	- Production "Blue" and "Green"
 	- Team Access and Resource Limits on namespaces. Limit CPU/RAM/Storage by a team on a common resource ("out of balance between teams")
-### Access Service in another namespace
+-
+- ## Access Service in another namespace
 	- Each namespace must have on configmap and/or secret to access common resource (e.g. database)
 	- service can be common to more than one namespace
 	- ```cmake
