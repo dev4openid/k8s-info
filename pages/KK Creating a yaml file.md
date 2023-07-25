@@ -14,8 +14,8 @@
 - Attributes of "spec" are specific to kind of file (Deployment vs. Service)
 - >3 parts!
   >1. metadata
-  2. specification
-  3. status (Notice: automatically generated on instatiation by k8s)
+  >2. specification
+  >3. status (Notice: automatically generated on instantiation by k8s)
 - Note: all status is found in etcd
 -
 - ![image.png](../assets/image_1686905575254_0.png)
