@@ -12,7 +12,7 @@
 - In the Service the nodePort is removed AND
   the spec - type is not Loadbalancer but ClusterIP  (NB: the internal service has "built-in loadbalancer")
 - Ingress host must be a valid domain name!
-- *==Note:==* Ingress sets up ==mapping== to access internal service etc.
+- > *==Note:==* Ingress sets up ==mapping== to access internal service etc.
 - Require an Ingress Controller Pod (which is mapped to Ingress)
 	- which evaluates and processes Ingress rules - entrypoint to K8s cluster and is part of the cluster
 - ![Ingress Controller to Ingress](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-21 18-51-47.png){:height 379, :width 552}
@@ -46,7 +46,6 @@
 	  ```
 	-
 - `minikube ip -p local-cluster` results in 192.168.49.2 which is the entry point to the cluster
--
-- *==Note:==*
+- >*==Note:==*
   > In ingress video at 11:23 look at paths and what they mean - Exact or Prefix
   > On the cloud, map the CNAME to the loadbalancer
