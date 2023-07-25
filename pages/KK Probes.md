@@ -15,9 +15,3 @@
   > Lightweight tests conducted / minimal impact
   > Correct Restart policy
   > Keep an eye on Probes regularly
--
-- ==Notes:==
-	- Ideal frequency of timings
-	- Lightweight tests conducted / minimal impact
-	- Correct Restart policy
-	- Keep an eye on Probes regularly
