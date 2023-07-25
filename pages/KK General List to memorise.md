@@ -9,9 +9,9 @@
 - deployment
 - sts
 ### Node Components
-- >Container runtime  ---> The container runtime is the software that is responsible for running containers.
-  kubelet            ---> An agent that runs on each node in the cluster. It makes sure that containers are running in a Pod.
-  kubeproxy          ---> kube-proxy is a network proxy that runs on each node in your cluster, implementing part of the Kubernetes Service concept.
+- > Container runtime  ---> The container runtime is the software that is responsible for running containers.
+  > kubelet            ---> An agent that runs on each node in the cluster. It makes sure that containers are running in a Pod.
+  > kubeproxy          ---> kube-proxy is a network proxy that runs on each node in your cluster, implementing part of the Kubernetes Service concept.
 ### Control Plane Components
 - >kube-apiserver           --->The API server is a component of the Kubernetes control plane that exposes the Kubernetes API. The API server is the front end for the Kubernetes control plane
   etcd                     ---> Consistent and highly-available key value store used as Kubernetes' backing store for all cluster data
