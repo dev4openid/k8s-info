@@ -7,7 +7,6 @@
 - [[KK Demo Project: MongoDB and MongoExpress]]
 - [[KK Organising your components with Namespaces]]
 - [[KK Ingress]]
-- [[KK Ingress]]
 - [[KK General List to memorise]]
 - [[KK Volumes]]
 - [[KK Components (Objects)]]
