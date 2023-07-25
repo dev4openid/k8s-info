@@ -27,7 +27,7 @@
 - [[KK Stateful Sets (STS)]]
 - [[KK Monitoring]]
 - [[KK Basic Networking]]
-- ((node))
+-
 -
 -
 -
