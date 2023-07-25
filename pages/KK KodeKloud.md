@@ -1,13 +1,13 @@
 - # KK K8s Contents
   title:: KK KodeKloud
 - [[kubernetes]]
+- [[KK General List to memorise]]
 - [[KK Minikube or kubeadm Metrics Server]]
 - [[KK Creating a yaml file]]
 - [[KK Notes of POD_Service_Replicas_etc]]
 - [[KK Demo Project: MongoDB and MongoExpress]]
 - [[KK Organising your components with Namespaces]]
 - [[KK Ingress]]
-- [[KK General List to memorise]]
 - [[KK Volumes]]
 - [[KK Components (Objects)]]
 - [[KK Stateful Sets (STS)]]
