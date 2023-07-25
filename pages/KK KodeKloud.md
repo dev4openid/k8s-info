@@ -20,15 +20,12 @@
 - [[KK Taints and Tolerations]]
 - [[KK DaemonSets]]
 - [[KK Autoscalers]]
+- [[KK Probes]]
+- [[KK K8S Commands and Arguments]]
 - [[KK RBAC]]
 - [[KK Sheduling]]
 - [[KK Env variables]]
 - [[KK Stateful Sets (STS)]]
--
-- [[KK Basic Networking]]
-- [[KK Probes]]
--
--
-- [[KK K8S Commands and Arguments]]
--
 - [[KK Monitoring]]
+- [[KK Basic Networking]]
+-
