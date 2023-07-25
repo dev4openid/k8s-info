@@ -43,8 +43,8 @@
 	  metadata:
 	  spec:
 	  ```
-- *==Tip:==*
-	- use `kubectl api-resources | grep deployment`  ---> (or service /  secret / configmap / pods)
+- >*==Tip:==*
+  >use `kubectl api-resources | grep deployment`  ---> (or service /  secret / configmap / pods)
 -
 - [[KK kubectl commands]]
 -
