@@ -1,4 +1,4 @@
 type:: project
 state:: DOING
 
-- TODO {{query }} + [[Project]] +
+- DOING {{query }} + [[Project]] +/tas
