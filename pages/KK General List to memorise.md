@@ -29,8 +29,8 @@
   |etcd |Consistent and highly-available key value store used as Kubernetes' backing store for all cluster data |
 -
 -
-- | **Component**            | **Description**                                                                                                                                                 |
-  |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+- | **Component**              | **Description**                                                                                                                                                 |
+  |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
   | kube-apiserver           | The API server is a component of the Kubernetes control plane that exposes the Kubernetes API. The API server is the front end for the Kubernetes control plane |
   | kube-scheduler           | Control plane component that watches for newly created Pods with no assigned node, and selects a node for them to run on                                        |
   | kube-controller-manager  | Control plane component that runs controller processes                                                                                                          |
