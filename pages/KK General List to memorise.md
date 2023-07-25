@@ -20,8 +20,7 @@
   cloud-controller-manager ---> A Kubernetes control plane component that embeds cloud-specific control logic.
 ### yaml file format
 - >apiVersion
-  Knd
+  Kind
   Metadata
-  spec
--
-- kubectl port-forward svc/mongodb-service 32000/27017  # an e.g. if you want to check areas with nodePort defined
+  Spec
+- kubectl port-forward svc/mongodb-service 32000/27017  # an e.g. ()if you want to check areas with nodePort defined)
