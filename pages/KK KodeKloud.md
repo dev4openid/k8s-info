@@ -11,10 +11,9 @@
 - [[KK Secrets]]
 - [[KK ConfigMap]]
 - [[KK Ingress]]
+- [[KK Volumes]]
 - [[KK Demo Project: MongoDB and MongoExpress]]
 - [[KK Organising your components with Namespaces]]
--
-- [[KK Volumes]]
 - [[KK Node Selector and Node Affinity]]
 - [[KK Limits]]
 - [[KK Taints and Tolerations]]
