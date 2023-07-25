@@ -14,10 +14,10 @@
 	- ## M
 	  |Name |Status| Age| Comment|
 	  |--|--|--|--|
-	  |default |Active |12h |heartbeat of nodes |
+	  |default |Active |12h | |
 	  ||Active |12h |heartbeat of nodes |
-	  ||Active|12h ||
-	  ||Active|12h||
+	  ||Active|12h |`kubectl cluster-info` will give you key info |
+	  ||Active|12h| leave alone |
 	  ||Active|||
 -
 -
