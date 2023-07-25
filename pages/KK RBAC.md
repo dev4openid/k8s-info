@@ -1,5 +1,5 @@
 - # RBAC
-- Introduction:
+- ## Introduction:
 - ![Overall view of k8s infrastructure](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-07-05 10-15-58.png){:height 370, :width 650}
 - Overall view of k8s infrastructure
 - Check `vi ~/.kube/config`
@@ -69,10 +69,10 @@
   ```
 -
 - ## Other
-- ==Tip:==
+- ==*Tip:*==
 	- use `wc -l nginx-pod.yaml`to count lines of output - e.g. pod.yaml
 -
-- To define a role for a new user
+- ## To define a role for a new user
 - ```cmake
   # as per the role.yaml the
   # verbs: [""@get", "watch", "list"] #limit the access/actions for a user
@@ -90,7 +90,7 @@
   
   ```
 -
-- To define the rolebinding (when the user, has a role defined)
+- ## To define the rolebinding (when the user, has a role defined)
 - ```cmake
   # as per the role-binding.yaml
   kubectl apply -f role-binding.yaml
