@@ -16,11 +16,11 @@
   >1. metadata
   >2. specification
   >3. status (Notice: automatically generated on instantiation by k8s)
-- Note: all status is found in etcd
+- *==Note:==* all status is found in etcd
 -
 - ![image.png](../assets/image_1686905575254_0.png)
 - Note: the concept of spec within a spec  - this is the actual deployable config - same goes for the service spec
-- ==etcd provides the "defaults" for all Deployments/Services==
+  ==etcd provides the "defaults" for all Deployments/Services==
 - ## Blueprint for Pods (Templates)
 - ==Structure of yaml file:==
 	- ```yaml
@@ -31,7 +31,7 @@
 	  ```
 - *==Tip:==*
 	- use `kubectl api-resources | grep deployment`  ---> (or service /  secret / configmap / pods)
-### Template
+- ## Template
 - ![Pod Specification](/home/briandanks/Pictures/Screenshots/Screenshot from 2023-06-20 15-43-01.png)
 - Pod Specification
 -
