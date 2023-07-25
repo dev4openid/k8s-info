@@ -10,6 +10,12 @@
 	  kube-node-lease   Active     12h  ---> heartbeat of nodes
 	  kube-public       Active     12h ---> `kubectl cluster-info` will give you key info
 	  kube-system       Active     12h  ---> leave alone
+-
+-
+-
+-
+-
+-
 - Create namespace `kubectl create namespace my-namespace`  BUT better in configmap file!
 - e.g.:
 	- ```cmake
