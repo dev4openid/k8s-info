@@ -29,7 +29,6 @@
 	  Conflicts between teams, same application (but different deployment)
 	  Staging vs Development using common "services"
 	  Production "Blue" and "Green"
-	  
 	  Team Access and Resource Limits on namespaces. Limit CPU/RAM/Storage by a team on a common resource ("out of balance between teams")
 -
 - ## Access Service in another namespace
@@ -44,7 +43,8 @@
 	    database-url: mongodb-service.database   #  NOTE: the suffix  .database 
 	                                             # to facilitate common usage between teams
 	  ```
-- Components that cannot be created in a namespace
+-
+- ## Components that cannot be created in a namespace
 	- vol
 	- node
 	- `kubectl api-resources --namespaced=false`
