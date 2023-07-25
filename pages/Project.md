@@ -1,4 +1,4 @@
 type:: project
-state:: doing
+state:: DOING
 
 -
