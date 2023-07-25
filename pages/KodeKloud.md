@@ -10,7 +10,6 @@
 - [[KK Ingress]]
 - [[KK General List to memorise]]
 - [[KK Volumes]]
--
 - [[KK Components (Objects)]]
 - [[KK Stateful Sets (STS)]]
 - [[KK Notes: Secrets and ConfigMaps]]
