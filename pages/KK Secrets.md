@@ -81,7 +81,7 @@
               key: DB_User
   ```
 -
-- Exmple of Pod-Definition
+- Example of Pod-Definition
 - ```yaml
   spec
     containers
