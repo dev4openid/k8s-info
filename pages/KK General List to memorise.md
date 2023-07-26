@@ -12,7 +12,7 @@
 - ## Node Components
   |Component|Description|
   |--|--|
-  |Container runtime|The container runtime is the software that is responsible for running containers|
+  |Container runtime         |The container runtime is the software that is responsible for running containers|
   |kubelet|An agent that runs on each node in the cluster. It makes sure that containers are running in a Pod|
   |kubeproxy|kube-proxy is a network proxy that runs on each node in your cluster, implementing part of the Kubernetes Service concept|
 -
