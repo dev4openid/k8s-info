@@ -5,7 +5,7 @@
   Refer to https://kubernetes.io/docs/tasks/administer-cluster/certificates/ point 3
 - From `k edit pod etcd-minikube -n kube-system` extract the certs and keys
 -
-- >ETCDCTL_API=3 etcctl \
+- >ETCDCTL_API=3 etcdctl \
   --cacert=/etc/kubernetes/pki/etcd/ca.crt \
    --cert=/etc/kubernetes/pki/etcd/server.crt \
    --key=/etc/kubernets/pki/etcd/server.key \
@@ -14,7 +14,7 @@
 -
 -
 - ```cmake
-  ETCDCTL_API=3 etcctl \
+  ETCDCTL_API=3 etcdctl \
   --cacert=var/lib/minikube/certs/etcd/ca.crt \
    --cert=/var/lib/minikube/certs/etcd/server.crt \
    --key=var/lib/minikube/certs/etcd/server.key \
