@@ -30,4 +30,5 @@
   kind
   metadata
   spec
-- kubectl port-forward svc/mongodb-service 32000/27017  # an e.g. ()if you want to check areas with nodePort defined)
+- `kubectl port-forward svc/mongodb-service 32000/27017`  # an e.g. ()if you want to check areas with nodePort defined)
+- `kubectl replace --force -f new-pod-defintion.yaml    # replace an existing pod`
