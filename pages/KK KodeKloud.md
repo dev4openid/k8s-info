@@ -10,6 +10,7 @@
 - [[KK Notes: Secrets and ConfigMaps]]
 - [[KK Secrets]]
 - [[KK ConfigMap]]
+- [[KK Encrypted data at rest]]
 - [[KK Ingress]]
 - [[KK Volumes]]
 - [[KK Demo Project: MongoDB and MongoExpress]]
