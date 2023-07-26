@@ -12,4 +12,5 @@
    --key=/etc/kubernets/pki/etcd/server.key \
    get /registry/sectrets/default/secret1 | hexdump
   ```
--
+- /var/lib/minikube/certs/etcd/ca.crt
+- cert-file=/var/lib/minikube/certs/etcd/server.crt
