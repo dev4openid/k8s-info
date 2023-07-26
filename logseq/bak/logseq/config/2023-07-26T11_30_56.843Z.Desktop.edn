@@ -340,7 +340,7 @@
  ;;     ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :journal/page-title-format "yyyy/MM/dd"
- :graph/settings {:journal? false, :excluded-pages? true, :builtin-pages? false}
+ :graph/settings {:journal? false, :excluded-pages? true, :builtin-pages? true}
  :feature/enable-timetracking? false
  :feature/enable-journals? true
  :default-home {}
