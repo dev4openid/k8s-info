@@ -27,7 +27,7 @@
 -
 ### yaml file format
 - >apiVersion
-  Kind
-  Metadata
-  Spec
+  kind
+  metadata
+  spec
 - kubectl port-forward svc/mongodb-service 32000/27017  # an e.g. ()if you want to check areas with nodePort defined)
