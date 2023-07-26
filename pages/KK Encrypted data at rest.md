@@ -12,6 +12,9 @@
    get /registry/sectrets/default/secret1 | hexdump
 -
 -
+- For ssh into minikube `ssh minikube`
+  cd /var/lib/minikube/certs
+  ls -la
 -
 - ```cmake
   ETCDCTL_API=3 etcdctl \
