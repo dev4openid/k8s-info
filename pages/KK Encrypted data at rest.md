@@ -15,9 +15,9 @@
 -
 - ```cmake
   ETCDCTL_API=3 etcdctl \
-  --cacert=var/lib/minikube/certs/etcd/ca.crt \
-   --cert=/var/lib/minikube/certs/etcd/server.crt \
-   --key=var/lib/minikube/certs/etcd/server.key \
+  --cacert=var/lib/minikube/pki/etcd/ca.crt \
+   --cert=/var/lib/minikube/pki/etcd/server.crt \
+   --key=var/lib/minikube/pki/etcd/server.key \
    get /registry/sectrets/default/secret1 | hexdump
   ```
 - /var/lib/minikube/certs/etcd/ca.crt
