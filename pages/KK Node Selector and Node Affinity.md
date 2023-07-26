@@ -42,14 +42,15 @@
   
   ```
 - Types of node affinity
-	- requiredDuringSchedulingIgnoreDuringExecution
-	- preferredDuringSchedulingIgnoreDuringExecution
-	- AND soon
-	- requiredSuringSchedulingIRequiredDuringExecution
+	- > requiredDuringSchedulingIgnoreDuringExecution
+	  preferredDuringSchedulingIgnoreDuringExecution
+	  *AND* soon
+	  requiredSuringSchedulingIRequiredDuringExecution
 - Therefore for 3 Affinity types:
 - ||DuringScheduling|DuringExecution|
   |--|--|--|
   |Type 1|Required|Ignored|
   |Type 2|Preferred|Ignored|
   |Type 3|Required|Required|
+-
 -
