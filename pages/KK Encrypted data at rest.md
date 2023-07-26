@@ -5,5 +5,8 @@
   Refer to https://kubernetes.io/docs/tasks/administer-cluster/certificates/ point 3
 -
 -
-- /
+- > --cacert=/etc/kubernetes/pki/etcd/ca.crt \
+  > --cert=/etc/kubernetes/pki/etcd/server.crt \
+  > --key=/etc/kubernets/pki/etcd/server.key \
+  > get /registry/sectrets/default/secret1 | hexdump
 -
