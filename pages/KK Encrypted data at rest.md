@@ -1,3 +1,4 @@
 - Encrypted data at rest
 -
-- Use etcdctl  (install in environments from )
+- Use etcdctl  (install in environments from https://etcd.io/docs/v3.5/install/)
+-
