@@ -1,4 +1,4 @@
--
+- `rsync --help`
 - https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/
 - ```bash
   # !bash#!/bin/bash
