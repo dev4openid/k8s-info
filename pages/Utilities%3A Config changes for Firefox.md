@@ -1,0 +1,3 @@
+- Firefox about:config settings:
+- network.http.max-persistent-connections-per-server
+- changed from
