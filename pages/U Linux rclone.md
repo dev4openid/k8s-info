@@ -7,6 +7,6 @@
 -
 - https://rclone.org/commands/rclone_dedupe/  # many options!
 -
--
+- ==e.g.== `rclone copy -P gdrive_baking: .`
 - {{video https://youtu.be/YDF1nBaAptw}}
 -
