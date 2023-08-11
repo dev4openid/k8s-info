@@ -1,5 +1,6 @@
 - `rsync --help`
 - https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/
+- https://www.howtogeek.com/451262/how-to-use-rclone-to-back-up-to-google-drive-on-linux/
 - https://wiki.linuxquestions.org/wiki/Rsync_with_Google_Drive
 - ```bash
   # !bash#!/bin/bash
