@@ -7,6 +7,7 @@
 -
 - https://rclone.org/commands/rclone_dedupe/  # many options!
 -
-- ==e.g.== `rclone copy -P gdrive_baking: .`
+- `rclone authorize "drive" "eyJzY29wZSI6ImRyaXZlIn0"`
+  ==e.g.== `rclone copy -P gdrive_baking: .`
 - {{video https://youtu.be/YDF1nBaAptw}}
 -
