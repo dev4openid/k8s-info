@@ -1,3 +1,5 @@
+- find config file at .config/rclone/rclone.conf
+-
 - rclone  https://rclone.org
        https://wiki.linuxquestions.org/wiki/Rsync_with_Google_Drive
 - rclone config
