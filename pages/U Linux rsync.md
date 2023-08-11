@@ -1,5 +1,6 @@
 - `rsync --help`
 - https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/
+- https://wiki.linuxquestions.org/wiki/Rsync_with_Google_Drive
 - ```bash
   # !bash#!/bin/bash
   # rsync -r -b --backup-dir='~/zxcBackup' -A -X -o -g -u -t -p -v --dry-run /home/briandanks/gdrive_local/Learning  /home/briandanks/zxcBackup
