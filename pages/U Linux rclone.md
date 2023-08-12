@@ -7,6 +7,8 @@
 -
 - > Can I copy the config from one machine to another 
   To find this file, run `rclone config file` which will tell you where it is.
+  /home/briandanks/.config/rclone/rclone.conf
+-
 - https://rclone.org/commands/rclone_dedupe/  # many options!
 -
 - `rclone authorize "drive" "eyJzY29wZSI6ImRyaXZlIn0"`
