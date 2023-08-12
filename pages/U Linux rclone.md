@@ -10,7 +10,7 @@
   /home/briandanks/.config/rclone/rclone.conf
 -
 - https://rclone.org/commands/rclone_dedupe/  # many options!
--
+- `rclone dedupe --by-hash --dry-run -P  /home/briandanks/zxcBackup
 - `rclone authorize "drive" "eyJzY29wZSI6ImRyaXZlIn0"`
   ==e.g.== `rclone copy -P gdrive_baking: .`
 - {{video https://youtu.be/YDF1nBaAptw}}
