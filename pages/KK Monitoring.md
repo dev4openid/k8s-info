@@ -1,6 +1,0 @@
-- # Monitor Application Logs
-- Inspect Docker image in container is: `docker logs -f 8c3a101b556a` # image ref / or name
-- Inspect k8s pod container image : `kubernetes logs -f webapp-02` # webapps02 is pod name
-- Inspect k8s pod container image : `kubernetes logs -f webapp-02 simple-webapp` # webapps02 is pod name; where simple-webapp OR db are to be chosen to inspect the logs ==defaulted container "simple-webapp" out of: simple-webapp, db==
--
--

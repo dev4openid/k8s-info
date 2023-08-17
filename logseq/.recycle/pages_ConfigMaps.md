@@ -1,2 +1,0 @@
-- [[KK Notes: Secrets and ConfigMaps]]
--
