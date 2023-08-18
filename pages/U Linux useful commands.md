@@ -1,2 +1,3 @@
 - `lsb_release -a`     # linux version
+- `lsof -i` # Google tracking   e.g. lhr25s26-in-f1.1e100.net
 -
