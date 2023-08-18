@@ -6,4 +6,5 @@
 - [[U Config changes for Firefox]]
 - [[U Linux rsync]]
 - [[U Linux rclone]]
+- [[U Linux  useful commands]]
 -
