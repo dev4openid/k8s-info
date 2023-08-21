@@ -8,4 +8,4 @@
 - [[U Linux rclone]]
 - [[U Linux useful commands]]
 - [[U Linux - update OS script]]
--
+- AI Recognition -thawt Images
