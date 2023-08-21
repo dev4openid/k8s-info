@@ -11,4 +11,7 @@
   usbmuxd -f -v
   
   ifuse ~/iphone
+  
+  # to remove/unmount device
+  # ifuse -u /iphone
   ```
