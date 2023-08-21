@@ -7,4 +7,5 @@
 - [[U Linux rsync]]
 - [[U Linux rclone]]
 - [[U Linux useful commands]]
+- [[logseq://graph/logseq?page=U%20Linux%20-%20update%20OS]]
 -
