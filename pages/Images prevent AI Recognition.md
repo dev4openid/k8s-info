@@ -2,4 +2,9 @@
 - Conect Ubuntu and iPhone
 - ```bash
   sudo apt install libimobiledevice6 libimobiledevice-utils
+  
+  # engage iphone with lightning cable
+  idevicepair pair
+  
+  
   ```
