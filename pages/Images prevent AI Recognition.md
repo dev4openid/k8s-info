@@ -13,6 +13,7 @@
   idevicepair pair
   usbmuxd -f -v
   
+  # better still just use 
   ifuse ~/iphone
   
   # to remove/unmount device
