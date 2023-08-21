@@ -21,3 +21,7 @@
   # to remove/unmount device
   # ifuse -u /iphone
   ```
+-
+-
+- ##Clean up EXIF info on image
+- tl
