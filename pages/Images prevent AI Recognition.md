@@ -26,6 +26,10 @@
 - ##Clean up EXIF info on image
 - ```bash
   tldr exiftool
+  # then use to remove all data
+  exiftool -All= ./IMG_0664.jpg
+  # then check data all gone
+  exiftool  ./IMG_0664.jpg
   
   ```
 -
