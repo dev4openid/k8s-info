@@ -10,4 +10,5 @@
   idevicepair pair
   usbmuxd -f -v
   
+  ifuse ~/iphone
   ```
