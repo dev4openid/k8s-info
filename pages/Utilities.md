@@ -7,5 +7,5 @@
 - [[U Linux rsync]]
 - [[U Linux rclone]]
 - [[U Linux useful commands]]
-- [[U Linux - update OS]]
+- [[U Linux - update OS script]]
 -
