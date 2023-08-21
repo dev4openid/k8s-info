@@ -24,4 +24,8 @@
 -
 -
 - ##Clean up EXIF info on image
-- tl
+- ```bash
+  tldr exiftool
+  
+  ```
+-
