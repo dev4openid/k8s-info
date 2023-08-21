@@ -4,7 +4,7 @@
 - Ref: https://www.maketecheasier.com/easily-mount-your-iphone-as-an-external-drive-in-ubuntu/
 -
 - ```bash
-  sudo apt install libimobiledevice6 libimobiledevice-utils
+  sudo apt install libimobiledevice6 libimobiledevice-utils usbmuxd
   sudo apt install ifuse
   
   mkdir ~/iphone
