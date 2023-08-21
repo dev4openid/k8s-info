@@ -34,4 +34,4 @@
   ```
 -
 - Get code from github for Linux
-- >./protection -d ./images -m high --format jpg
+- >`./protection -d ./images -m high --format jpg`
