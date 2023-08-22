@@ -1,16 +1,14 @@
 - https://sypalo.com/how-to-upgrade-ubuntu
 -
 - ## Preparation
-	- Update packages list
-		-
-		- ```bash
-		  sudo apt-get update
-		  
-		  
-		  
-		  
-		  ```
-		- >`sudo apt-get update`
+	- ```bash
+	  # Update packages list
+	  sudo apt-get update
+	  
+	  
+	  
+	  
+	  ```
 	- Upgrade packages
 		- >`sudo apt-get upgrade`
 	- Install update-manager-core package
