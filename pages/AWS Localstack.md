@@ -1,3 +1,4 @@
 - https://localstack.cloud
+- https://github.com/localstack
 - basically simulates AWS cloud and encourages fast turnaround of iteration without the flow of to/from actual cloud
 -
