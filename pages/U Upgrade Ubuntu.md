@@ -34,8 +34,8 @@
 	- Run full upgrade
 		- >sudo apt-get dist-upgrade
 	- If any error re-run
-		- sudo apt-get update
-		- sudo apt-get dist-upgrade
+		- >sudo apt-get update
+		- >sudo apt-get dist-upgrade
 	- Run cleanup
 		- >sudo apt-get autoremove
 		- sudo apt-get clean
