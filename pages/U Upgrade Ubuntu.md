@@ -113,14 +113,17 @@
 	-
 - ## Finishing up
 	- ```bash
+	  # Update packages list
+	  sudo apt-get update  
+	  # Upgrade packages
+	  sudo apt-get upgrade  
+	  # Reboot the system if needed
+	  sudo reboot  
+	  # Check the OS distro
+	  lsb_release -a  
+	  # Check kernel version
+	  uname -r 
+	  
 	  ```
 	- Update packages list
 		- >sudo apt-get update
-	- Upgrade packages
-		- >sudo apt-get upgrade
-	- Reboot the system if needed
-		- >sudo reboot
-	- Check the OS distro
-		- >lsb_release -a
-	- Check kernel version
-		- >uname -r
