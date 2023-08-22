@@ -46,18 +46,14 @@
 	  sudo apt-get dist-upgrade
 	  
 	  # If any error re-run
-	  
-	  
-	  
+	  sudo apt-get update
+	  sudo apt-get dist-upgrade
+	  # Run cleanup
+	  sudo apt-get autoremove
+	  sudo apt-get clean
 	  
 	  ```
 	-
-	- If any error re-run
-		- >sudo apt-get update
-		- >sudo apt-get dist-upgrade
-	- Run cleanup
-		- >sudo apt-get autoremove
-		- sudo apt-get clean
 	- Reboot the system
 		- sudo reboot
 		- Update packages list
