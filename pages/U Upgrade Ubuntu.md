@@ -57,28 +57,26 @@
 - ## Reboot the system
 	- ```bash
 	  sudo reboot
-	  
+	  # Update packages list
+	  sudo apt-get update
+	  # Upgrade packages
+	  sudo apt-get upgrade
+	  # Run full upgrade
+	  sudo apt-get dist-upgrade
+	  # If any error re-run
+	  sudo apt-get update
+	  sudo apt-get dist-upgrade
+	  # Run cleanup
+	  sudo apt-get autoremove
+	  sudo apt-get clean
+	  # Reboot the system
+	  sudo reboot
 	  
 	  
 	  
 	  ```
-	- sudo reboot
-	- Update packages list
-		- sudo apt-get update
-	- Upgrade packages
-		- sudo apt-get upgrade
-	- Run full upgrade
-		- sudo apt-get dist-upgrade
-	- If any error re-run
-		- sudo apt-get update
-		- sudo apt-get dist-upgrade
-	- Run cleanup
-		- sudo apt-get autoremove
-		- sudo apt-get clean
-	- Reboot the system
-		- sudo reboot
-		-
-- ## Upgrade Ubuntu kernel version
+	-
+- # Upgrade Ubuntu kernel version
 	- 1.  Change current directory to /tmp
 		- cd /tmp
 	- 2.  Download latest stable kernel
