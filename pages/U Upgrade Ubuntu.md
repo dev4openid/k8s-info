@@ -27,17 +27,29 @@
 	  
 	  ```
 	-
-	- Change default distro from your current
-		- 20.04 - focal
-		- 20.10 - groovy
-		- 21.04 - hirsute
-		- 21.10 - impish
-		- 22.04 - jammy
-		- 22.10 - kinetic
-		- 23.04 - lunar
-		- 23.10 - mantic (development branch)
-		- in the example below, we are upgrading from Ubuntu 22.04 (jammy) to 23.04 (lunar)
-		- >sudo sed -i `s/jammy/lunar/g` /etc/apt/sources.list
+- ## Change default distro from your current
+	- 20.04 - focal
+	- 20.10 - groovy
+	- 21.04 - hirsute
+	- 21.10 - impish
+	- 22.04 - jammy
+	- 22.10 - kinetic
+	- 23.04 - lunar
+	- 23.10 - mantic (development branch)
+	- in the example below, we are upgrading from Ubuntu 22.04 (jammy) to 23.04 (lunar)
+	- ```bash
+	  sudo sed -i `s/jammy/lunar/g` /etc/apt/sources.list
+	  # Update packages list
+	  
+	  
+	  
+	  
+	  
+	  
+	  ```
+	-
+	-
+	- >sudo sed -i `s/jammy/lunar/g` /etc/apt/sources.list
 	- Update packages list
 		- >sudo apt-get update
 	- Upgrade packages
