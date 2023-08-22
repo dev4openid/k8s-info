@@ -10,6 +10,10 @@
   /home/briandanks/.config/rclone/rclone.conf
 -
 	- https://rclone.org/commands/rclone_copy/     # to copy files accross but not copy identical src/dest
+	- ```bash
+	  rclone copy source:sourcepath dest:destpath
+	  ```
+-
 - https://rclone.org/commands/rclone_dedupe/  # many options!
 - ==e.g== `rclone dedupe --by-hash --dry-run -P  /home/briandanks/zxcBackup`
 -
