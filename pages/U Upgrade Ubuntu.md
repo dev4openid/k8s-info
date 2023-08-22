@@ -2,11 +2,11 @@
 -
 - ## Preparation
 	- Update packages list
-		- >sudo apt-get update
+		- >`sudo apt-get update`
 	- Upgrade packages
-		- >sudo apt-get upgrade
+		- >`sudo apt-get upgrade`
 	- Install update-manager-core package
-		- >sudo apt-get install update-manager-core
+		- >`sudo apt-get install update-manager-core
 - ## Update Ubuntu to 23.04
 	- Upgrade distro
 		- >sudo apt-get dist-upgrade
@@ -84,6 +84,11 @@
 		- ```bash
 		  ```
 		-
+		-
+		- wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-headers-6.5.0-060500rc7_6.5.0-060500rc7.202308201631_all.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-headers-6.5.0-060500rc7_6.5.0-060500rc7.202308201631_all.deb)
+		- wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-headers-6.5.0-060500rc7-generic_6.5.0-060500rc7.202308201631_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-headers-6.5.0-060500rc7-generic_6.5.0-060500rc7.202308201631_amd64.deb)
+		- wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-image-unsigned-6.5.0-060500rc7-generic_6.5.0-060500rc7.202308201631_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-image-unsigned-6.5.0-060500rc7-generic_6.5.0-060500rc7.202308201631_amd64.deb)
+		- wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-modules-6.5.0-060500rc7-generic_6.5.0-060500rc7.202308201631_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-modules-6.5.0-060500rc7-generic_6.5.0-060500rc7.202308201631_amd64.deb)
 - ## Finishing up
 	- Update packages list
 		- >sudo apt-get update
