@@ -6,3 +6,6 @@
 -
 - goauthentik.io
 - https://goauthentik.io/docs/terminology
+-
+- FairwindsOps
+- https://github.com/FairwindsOps/rbac-manager
