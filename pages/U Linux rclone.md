@@ -5,10 +5,11 @@
 - rclone config
   rclone rcd --rc-web-gui    # used to drive graphical frontend  # https://rclone.org/gui/
 -
-- > Can I copy the config from one machine to another 
+- > To copy the config from one machine to another:
   To find this file, run `rclone config file` which will tell you where it is.
   /home/briandanks/.config/rclone/rclone.conf
 -
+	- https://rclone.org/commands/rclone_copy/
 - https://rclone.org/commands/rclone_dedupe/  # many options!
 - ==e.g== `rclone dedupe --by-hash --dry-run -P  /home/briandanks/zxcBackup`
 -
