@@ -2,11 +2,19 @@
 -
 - ## Preparation
 	- Update packages list
+		-
+		- ```bash
+		  sudo apt-get update
+		  
+		  
+		  
+		  
+		  ```
 		- >`sudo apt-get update`
 	- Upgrade packages
 		- >`sudo apt-get upgrade`
 	- Install update-manager-core package
-		- >`sudo apt-get install update-manager-core
+		- >`sudo apt-get install update-manager-core`
 - ## Update Ubuntu to 23.04
 	- Upgrade distro
 		- >sudo apt-get dist-upgrade
