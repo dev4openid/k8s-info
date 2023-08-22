@@ -11,9 +11,12 @@
 -
 	- https://rclone.org/commands/rclone_copy/     # to copy files accross but not copy identical src/dest
 	- ```bash
+	  ### Note@ 
+	  
 	  rclone copy source:sourcepath dest:destpath
 	  
 	  #For example, if you have many files in /path/to/src but only a few of them change every day, you can copy all the files which have changed recently very efficiently like this:
+	  rclone copy --max-age 24h --no-traverse /path/to/src remote:
 	  
 	  ```
 -
