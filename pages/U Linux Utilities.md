@@ -9,4 +9,4 @@
 - [[U Linux useful commands]]
 - [[U Linux - update OS script]]
 - [[U Upgrade Ubuntu]]
-- Images prevent AI Recognition
+- [[Images prevent AI Recognition]]
