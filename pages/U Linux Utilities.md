@@ -8,5 +8,5 @@
 - [[U Linux rclone]]
 - [[U Linux useful commands]]
 - [[U Linux - update OS script]]
-- [[U Upgrade Ubuntu]]
+- [[U Linux Upgrade Ubuntu]]
 - [[Images prevent AI Recognition]]
