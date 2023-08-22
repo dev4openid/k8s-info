@@ -1,15 +1,15 @@
 - https://sypalo.com/how-to-upgrade-ubuntu
 -
 - ## Preparation
-	- 1.  Update packages list
+	- Update packages list
 		- >sudo apt-get update
-	- 2.  Upgrade packages
-		- sudo apt-get upgrade
-	- 3.  Install update-manager-core package
-		- sudo apt-get install update-manager-core
+	- Upgrade packages
+		- >sudo apt-get upgrade
+	- Install update-manager-core package
+		- >sudo apt-get install update-manager-core
 - ## Update Ubuntu to 23.04
 	- 1.  Upgrade distro
-		- sudo apt-get dist-upgrade
+		- >sudo apt-get dist-upgrade
 	- 2.  Update Ubuntu to the latest LTS release
 		- Run the following command until you get your Ubuntu to version 22.04:
 		- sudo do-release-upgrade
