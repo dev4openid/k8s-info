@@ -11,7 +11,7 @@
 -
 	- https://rclone.org/commands/rclone_copy/     # to copy files accross but not copy identical src/dest
 	- ```bash
-	  ### Note@ 
+	  ### Note: --dry-run or the --interactive/-i flag to test without copying anything
 	  
 	  rclone copy source:sourcepath dest:destpath
 	  
