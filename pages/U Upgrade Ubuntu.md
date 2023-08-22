@@ -40,22 +40,18 @@
 	- ```bash
 	  sudo sed -i `s/jammy/lunar/g` /etc/apt/sources.list
 	  # Update packages list
+	  sudo apt-get update
+	  sudo apt-get upgrade
+	  # Run full upgrade
+	  sudo apt-get dist-upgrade
 	  
-	  
+	  # If any error re-run
 	  
 	  
 	  
 	  
 	  ```
 	-
-	-
-	- >sudo sed -i `s/jammy/lunar/g` /etc/apt/sources.list
-	- Update packages list
-		- >sudo apt-get update
-	- Upgrade packages
-		- >sudo apt-get upgrade
-	- Run full upgrade
-		- >sudo apt-get dist-upgrade
 	- If any error re-run
 		- >sudo apt-get update
 		- >sudo apt-get dist-upgrade
