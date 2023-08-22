@@ -14,7 +14,9 @@
 	- ```bash
 	  # Upgrade distro
 	  sudo apt-get dist-upgrade
-	  
+	  # Update Ubuntu to the latest LTS release
+	  # Run the following command until you get your Ubuntu to version 22.04:
+	  sudo do-release-upgrade
 	  
 	  
 	  ```
