@@ -9,3 +9,5 @@
 -
 - FairwindsOps
 - https://github.com/FairwindsOps/rbac-manager
+-
+- https://dev.to/thenjdevopsguy/kubernetes-roles-and-users-rbac-for-k8s-44n4
