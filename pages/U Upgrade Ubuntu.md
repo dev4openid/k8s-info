@@ -83,13 +83,13 @@
 		- wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-image-unsigned-6.5.0-060500rc7-generic_6.5.0-060500rc7.202308201631_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-image-unsigned-6.5.0-060500rc7-generic_6.5.0-060500rc7.202308201631_amd64.deb)
 		- wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-modules-6.5.0-060500rc7-generic_6.5.0-060500rc7.202308201631_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-modules-6.5.0-060500rc7-generic_6.5.0-060500rc7.202308201631_amd64.deb)
 - ## Finishing up
-	- 1.  Update packages list
-		- sudo apt-get update
+	- Update packages list
+		- >sudo apt-get update
 	- 2.  Upgrade packages
-		- sudo apt-get upgrade
+		- >sudo apt-get upgrade
 	- 3.  Reboot the system if needed
-		- sudo reboot
+		- >sudo reboot
 	- 4.  Check the OS distro
-		- lsb_release -a
+		- >lsb_release -a
 	- 5.  Check kernel version
 		- uname -r
