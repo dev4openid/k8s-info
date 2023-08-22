@@ -28,4 +28,33 @@
 		- in the example below, we are upgrading from Ubuntu 22.04 (jammy) to 23.04 (lunar)
 		- sudo sed -i `s/jammy/lunar/g` /etc/apt/sources.list
 	- 5.  Update packages list
+	- Update packages list
+		- sudo apt-get update
+	- Upgrade packages
+		- sudo apt-get upgrade
+	- Run full upgrade
+		- sudo apt-get dist-upgrade
+	- If any error re-run
+		- sudo apt-get update
+		- sudo apt-get dist-upgrade
+	- Run cleanup
+		- sudo apt-get autoremove
+		- sudo apt-get clean
+	- Reboot the system
+		- sudo reboot
+		- Update packages list
+			- sudo apt-get update
+		- Upgrade packages
+			- sudo apt-get upgrade
+		- Run full upgrade
+			- sudo apt-get dist-upgrade
+		- If any error re-run
+			- sudo apt-get update
+			- sudo apt-get dist-upgrade
+		- Run cleanup
+			- sudo apt-get autoremove
+			- sudo apt-get clean
+		- Reboot the system
+			- sudo reboot
+			-
 -
