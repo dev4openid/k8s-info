@@ -77,18 +77,15 @@
 	  ```
 	-
 - ## Upgrade Ubuntu kernel version
-	- 1.  Change current directory to /tmp
-		- cd /tmp
-	- 2.  Download latest stable kernel
-		- ```
-		  # Change current directory to /tmp
-		  cd /tmp
-		  # Download latest stable kernel
-		  wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-headers-6.4.11-060411_6.4.11-060411.202308161732_all.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-headers-6.4.11-060411_6.4.11-060411.202308161732_all.deb)  
-		  wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-headers-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-headers-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb)  
-		  wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-image-unsigned-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-image-unsigned-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb)  
-		  wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-modules-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-modules-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb)
-		  ```
+	- ```
+	  # Change current directory to /tmp
+	  cd /tmp
+	  # Download latest stable kernel
+	  wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-headers-6.4.11-060411_6.4.11-060411.202308161732_all.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-headers-6.4.11-060411_6.4.11-060411.202308161732_all.deb)  
+	  wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-headers-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-headers-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb)  
+	  wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-image-unsigned-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-image-unsigned-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb)  
+	  wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-modules-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-modules-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb)
+	  ```
 	- 3.  Install latest stable kernel
 		- >sudo dpkg -i *.deb
 	- 4.  Reboot system after latest stable kernel upgrade
