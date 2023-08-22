@@ -9,7 +9,7 @@
   To find this file, run `rclone config file` which will tell you where it is.
   /home/briandanks/.config/rclone/rclone.conf
 -
-	- https://rclone.org/commands/rclone_copy/
+	- https://rclone.org/commands/rclone_copy/     # to copy files accross but not copy identical src/dest
 - https://rclone.org/commands/rclone_dedupe/  # many options!
 - ==e.g== `rclone dedupe --by-hash --dry-run -P  /home/briandanks/zxcBackup`
 -
