@@ -4,3 +4,5 @@
 - https://infrahq.com/docs/quickstart
 - https://github.com/infrahq/infra
 -
+- goauthentik.io
+- https://goauthentik.io/docs/terminology
