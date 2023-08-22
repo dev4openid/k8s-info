@@ -125,5 +125,5 @@
 	  uname -r 
 	  
 	  ```
-	- Update packages list
-		- >sudo apt-get update
+	-
+-
