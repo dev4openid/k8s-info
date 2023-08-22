@@ -1,5 +1,4 @@
 - https://sypalo.com/how-to-upgrade-ubuntu
--
 - # Preparation
 	- ```bash
 	  # Update packages list
