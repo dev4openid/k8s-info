@@ -1,0 +1,2 @@
+- https://localstack.cloud
+- basically
