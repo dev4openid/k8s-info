@@ -1,2 +1,3 @@
 - https://localstack.cloud
-- basically
+- basically simulates AWS cloud and encourages fast turnaround of iteration without the flow of to/from actual cloud
+-
