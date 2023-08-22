@@ -74,13 +74,15 @@
 		- >cd /tmp
 	- Download latest mainline kernel (optionally)
 		- If you experience some issues with the latest stable kernel or want to test the newest release candidate you might give the latest kernel release candidate a try. But be cautious, it is still in development, and while fixing some bugs, new ones might appear. There are two ways to install latest mainline kernel:
-			- ```
+			- ```bash
 			      sudo add-apt-repository ppa:cappelikan/ppa -y
 			      sudo apt-get update
 			      sudo apt-get update
 			      sudo apt install mainline -y
 			  ```
-		- or:```
+		- or:
+		- ```bash
+		- ```
 		- wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-headers-6.5.0-060500rc7_6.5.0-060500rc7.202308201631_all.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-headers-6.5.0-060500rc7_6.5.0-060500rc7.202308201631_all.deb)
 		- wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-headers-6.5.0-060500rc7-generic_6.5.0-060500rc7.202308201631_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-headers-6.5.0-060500rc7-generic_6.5.0-060500rc7.202308201631_amd64.deb)
 		- wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-image-unsigned-6.5.0-060500rc7-generic_6.5.0-060500rc7.202308201631_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.5-rc7/amd64/linux-image-unsigned-6.5.0-060500rc7-generic_6.5.0-060500rc7.202308201631_amd64.deb)
