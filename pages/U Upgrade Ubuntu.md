@@ -22,7 +22,11 @@
 	-
 - ## Change default branch from lts to normal
 	- Once you update your Ubuntu to 22.04, the latest LTS version, you need to tell the update manager to get the newest short-term supported Ubuntu 23.04. If you want to test new features and are an experienced Linux user you can upgrade to the currently developed 23.04. But remember to back up all your important files in advance, especially if you are going to upgrade your live pc, laptop, or server. But better to test the upgrade on a VM first. The main rule - the fewer versions you are skipping the soother the upgrade process will be, so if you would like to upgrade directly from say 20.04 to 23.04 the process most likely will fail or you will get a bunch of errors and need to fix broken packages and re-run the upgrade again. So I told you - better be safe than sorry, and now let`s move on.
-	- >sudo sed -i 's/lts/normal/g' /etc/update-manager/release-upgrades
+	- ```bash
+	  sudo sed -i 's/lts/normal/g' /etc/update-manager/release-upgrades
+	  
+	  ```
+	-
 	- Change default distro from your current
 		- 20.04 - focal
 		- 20.10 - groovy
