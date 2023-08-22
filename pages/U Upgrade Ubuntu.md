@@ -67,11 +67,11 @@
 		      wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-modules-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-modules-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb)
 		    ```
 	- 3.  Install latest stable kernel
-		- sudo dpkg -i *.deb
+		- >sudo dpkg -i *.deb
 	- 4.  Reboot system after latest stable kernel upgrade
-		- sudo reboot
+		- >sudo reboot
 	- 5.  Change current directory to /tmp
-		- cd /tmp
+		- >cd /tmp
 	- 6.  Download latest mainline kernel (optionally)
 		- If you experience some issues with the latest stable kernel or want to test the newest release candidate you might give the latest kernel release candidate a try. But be cautious, it is still in development, and while fixing some bugs, new ones might appear. There are two ways to install latest mainline kernel:
 			- sudo add-apt-repository ppa:cappelikan/ppa -y
@@ -85,11 +85,11 @@
 - ## Finishing up
 	- Update packages list
 		- >sudo apt-get update
-	- 2.  Upgrade packages
+	- Upgrade packages
 		- >sudo apt-get upgrade
-	- 3.  Reboot the system if needed
+	- Reboot the system if needed
 		- >sudo reboot
-	- 4.  Check the OS distro
+	- Check the OS distro
 		- >lsb_release -a
-	- 5.  Check kernel version
-		- uname -r
+	- Check kernel version
+		- >uname -r
