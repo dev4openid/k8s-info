@@ -92,8 +92,10 @@
 	  
 	  ```
 	-
-	-
 - ## Download latest mainline kernel (optionally)
+	- If you experience some issues with the latest stable kernel or want to test the newest release candidate you might give the latest kernel release candidate a try. But be cautious, it is still in development, and while fixing some bugs, new ones might appear. There are two ways to install latest mainline kernel:
+	- ```bash
+	  ```
 	- If you experience some issues with the latest stable kernel or want to test the newest release candidate you might give the latest kernel release candidate a try. But be cautious, it is still in development, and while fixing some bugs, new ones might appear. There are two ways to install latest mainline kernel:
 		- ```bash
 		      sudo add-apt-repository ppa:cappelikan/ppa -y
