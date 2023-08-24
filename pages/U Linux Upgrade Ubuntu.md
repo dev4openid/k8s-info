@@ -77,11 +77,11 @@
 	- ```bash
 	  # Change current directory to /tmp
 	  cd /tmp
-	  # Download latest stable kernel
-	  wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-headers-6.4.11-060411_6.4.11-060411.202308161732_all.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-headers-6.4.11-060411_6.4.11-060411.202308161732_all.deb)  
-	  wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-headers-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-headers-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb)  
-	  wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-image-unsigned-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-image-unsigned-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb)  
-	  wget -c [https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-modules-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb](https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-modules-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb)
+	  # Download latest stable kernel  whatever that version is?? Go to kernel.ubuntu.com
+	  wget -c https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-headers-6.4.11-060411_6.4.11-060411.202308161732_all.deb
+	  wget -c https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-headers-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb
+	  wget -c https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-image-unsigned-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb
+	  wget -c https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.4.11/amd64/linux-modules-6.4.11-060411-generic_6.4.11-060411.202308161732_amd64.deb
 	  # Install latest stable kernel
 	  sudo dpkg -i *.deb  
 	  # Reboot system after latest stable kernel upgrade
