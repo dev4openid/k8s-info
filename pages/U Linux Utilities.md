@@ -10,3 +10,4 @@
 - [[U Linux - update OS script]]
 - [[U Linux Upgrade Ubuntu]]
 - [[Images prevent AI Recognition]]
+- [[Ventoy]]
