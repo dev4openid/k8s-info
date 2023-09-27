@@ -4,4 +4,4 @@
   sudo sh Ventoy2Disk.sh -u /dev/sdc
   ```
 - https://www.ventoy.net/en/doc_delete_key
-- note the password for UEFI is: 123
+- '# note the password for UEFI is: 123
